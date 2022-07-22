@@ -13,7 +13,7 @@ li label::after {
 }
 li input:checked + label:after {
 	content: ' （点击折叠）'; 
-	color:red;
+	color:blue;
 }
 
 /* here's the part that does the expanding and collapsing: */
