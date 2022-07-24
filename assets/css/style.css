@@ -1,10 +1,9 @@
 /* adapted from: http://www.bradclicks.com/CSSplay/foldingList.html */
-li { position:relative; }/* 使 checkbox 随缩进移动 */
-/* FireFox ignores absolute positioning on the generated content */
-body:not([class*=""]) li:before {  margin-top:-1em; margin-bottom:-.6em ;margin-left:-35px; }
-body:not([class*=""]) li:first-child:before { margin-top:-1.55em; }
+ul { margin: 0 0 0 1em; padding: 0; }
+blockquote { margin: 0 0 0 1em; padding: 0; }
+li { position:relative; }
 
-li input { left: -20px; margin-top:8px; position:absolute; opacity:.0; } /* 左移 checkbox 使对齐 */
+li input { left: -20px; margin-top:8px; position:absolute; opacity:.0; }
 li label::after {
 	content: ' （点击展开）';
 	font-weight: normal;
@@ -13,10 +12,12 @@ li label::after {
 }
 li input:checked + label:after {
 	content: ' （点击折叠）'; 
-	color:blue;
+	color:purple;
 }
 
 /* here's the part that does the expanding and collapsing: */
-input + label + ul { display:none; }
-input:checked + label + ul { display:block; }
+li input + label + ul { display:none; }
+li input:checked + label + ul { display:block; }
+li input + label + blockquote { display:none; }
+li input:checked + label + blockquote { display:block; }
 

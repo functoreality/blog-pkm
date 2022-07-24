@@ -2,27 +2,28 @@ from re import sub,findall
 import os
 import time
 
-fold_pat_sol = r'[*-+]\s+'
+fold_pat_sol = r'\s*[*-+]\s+'
     ## For example, if you do not want to fold the lines started
-    ##  with '+ ', you can change it to r'[*-]\s+'. 
-fold_pat = r'(\s*' + fold_pat_sol + r')(.*)\n'
+    ##  with '+ ', you can change it to r'\s*[*-]\s+'. 
+fold_pat = r'(' + fold_pat_sol + r')(.*)\n'
 def process(fpath): ## for future extension: rewrite as a class
     with open(fpath + '/raw.md') as f_src:
         lines = f_src.readlines()
 
+    notMLcode = True
     for i in range(len(lines)):
-        ## reformat link [[note]] to [note](../note/):
-        lines[i] = sub(r'\[\[([^\[\]]+)\]\]', r'[\1](../\1/)', lines[i])
+        if notMLcode:
+            ## reformat link [[note]] to [note](../note/), except multiline code
+            lines[i] = sub(r'\[\[([^\[\]]+)\]\]', r'[\1](../\1/)', lines[i])
         ## enable folding:
         indent_level = len(findall(r'^[ \t]*', lines[i])[0])
-        if i == 0:
-            indent_level_prev = indent_level
-            continue
-        if indent_level > indent_level_prev:
+        if i > 0 and notMLcode and indent_level > indent_level_prev:
             fold_targ = r'\1<input type="checkbox" id="fold%d">' % i
             fold_targ += r'<label for="fold%d">\2</label>\n' % i
             lines[i - 1] = sub(fold_pat, fold_targ, lines[i - 1])
         indent_level_prev = indent_level
+        if len(findall(r'^\s*`{3}', lines[i])) > 0:
+            notMLcode = not notMLcode
 
     mod_time = time.localtime(os.path.getmtime(fpath + '/raw.md'))
     with open(fpath + '/index.md', 'w') as f_targ:

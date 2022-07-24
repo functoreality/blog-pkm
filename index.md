@@ -3,7 +3,8 @@
 * 讨论可在对应仓库的 [GitHub issues](https://github.com/functoreality/blog-pkm/issues) 下进行。希望这些内容能够引发有益的交流 :)
 
 ## 文章列表
-* [笔记间关联方式](contents/笔记间关联方式/)
+* [笔记间关联方式](contents/笔记间关联方式/) （施工中）
+* [MOC的组织](contents/MOC的组织/)：为各种不同复杂度的 MOC（内容地图）提供组织方式上的参考。
 
 ## License
 ![CC BY-SA 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
