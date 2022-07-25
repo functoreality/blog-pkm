@@ -1,4 +1,3 @@
-# 笔记间关联方式
 * 本文受到 Nick Milo《笔记间的关联方式比较》启发。文章链接：[中文翻译](https://zhuanlan.zhihu.com/p/373862260)，[英文原文](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6)。
 * **文件夹**：最直观的笔记分类方式，其功能可被 MOC 替代。
 	* 文件夹维护了一种等级式的秩序。存放在同一个文件夹下的笔记有着相同的类别，它们通过这种方式被关联起来。

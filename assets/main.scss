@@ -1,0 +1,26 @@
+---
+---
+@import "minima";
+/* adapted from: http://www.bradclicks.com/CSSplay/foldingList.html */
+ul { margin: 0 0 0 1em; padding: 0; }
+blockquote { margin: 0 0 0 1em; padding: 0; }
+li { position:relative; }
+
+li input { left: -20px; margin-top:8px; position:absolute; opacity:.0; }
+li label::after {
+	content: ' （点击展开）';
+	font-weight: normal;
+	font-size:80%;
+	color:green;
+}
+li input:checked + label:after {
+	content: ' （点击折叠）'; 
+	color:purple;
+}
+
+/* here's the part that does the expanding and collapsing: */
+li input + label + ul { display:none; }
+li input:checked + label + ul { display:block; }
+li input + label + blockquote { display:none; }
+li input:checked + label + blockquote { display:block; }
+
