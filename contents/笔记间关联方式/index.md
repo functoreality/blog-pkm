@@ -1,11 +1,9 @@
 ---
-layout: post
+layout: folded_post
 title: "笔记间关联方式"
-date: 2022-07-25 +0800
+date: 2022-07-26 +0800
 categories: jekyll update
 ---
-
-（可在[无折叠版本](raw)中进行全文搜索）
 
 * 本文受到 Nick Milo《笔记间的关联方式比较》启发。文章链接：[中文翻译](https://zhuanlan.zhihu.com/p/373862260)，[英文原文](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6)。
 * <input type="checkbox" id="fold2"><label for="fold2">**文件夹**：最直观的笔记分类方式，其功能可被 MOC 替代。</label>
@@ -28,7 +26,7 @@ categories: jekyll update
 	* <input type="checkbox" id="fold19"><label for="fold19">若设定文件名以使一些文件显示在相邻位置，可以体现一部分的前一种关联。</label>
 		* 用文件名来管理排序是实现下方所说的“空间邻近”关系的方式之一。但这稍显麻烦，也没能在简单相邻之外提供更多信息。
 		* 这样的邻近关系只有在文件依据名称进行排序时才能看到，且需要小心设定文件名，添加新文件时还需要避免它误插入本应相邻的文件中间。这无疑会增加笔记系统维护的成本。
-	* 链接和 MOC 则是更彻底的解决方案，能更准确和有效地刻画这两种联系。
+	*  链接和 MOC 则是更彻底的解决方案，能更准确和有效地刻画这两种联系。
 		<!-- * 它既能方便地维护空间邻近关系，也能添加额外的文字来对其间的关系进行更为细致的描述。下方专门讨论 MOC 时将进行更细致的分析。 -->
 	* <input type="checkbox" id="fold24"><label for="fold24">原则上，文件夹所能实现的功能用标签、MOC 也都能实现，而其中 MOC 更为灵活。对于能够灵活使用 MOC 的人来说，文件夹的结构在笔记系统中并不是必要的。</label>
 		* 以查找笔记的方式为例：原来的传统层级文件组织下，我们在笔记系统中点开其所在分类对应的文件夹，然后是细分类对应的子文件夹，再到子文件夹的子文件夹，最终找到想要的笔记。
