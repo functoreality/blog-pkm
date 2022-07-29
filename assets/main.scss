@@ -2,8 +2,10 @@
 ---
 @import "minima";
 /* adapted from: http://www.bradclicks.com/CSSplay/foldingList.html */
-ul { margin: 0 0 0 1em; padding: 0; }
-blockquote { margin: 0 0 0 1em; padding: 0; }
+ul { margin-left: 1em; padding: 0; }
+blockquote { font-size: 16px; font-style: normal; }
+// disable italic for Chinese; or https://www.zhihu.com/answer/614871040?
+// blockquote { margin: 0 0 0 1em; padding: 0; }
 li { position:relative; }
 
 li input { left: -20px; margin-top:8px; position:absolute; opacity:.0; }
