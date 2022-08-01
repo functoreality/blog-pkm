@@ -7,7 +7,7 @@ fold_pat_sol = r'\s*[*+] '
     ## to enable folding for any lines, use r'^\s*[*\-+]\s+'. 
 fold_pat = r'^(' + fold_pat_sol + ')(\S.*)\n'
 def process(post): ## for future extension: rewrite as a class
-    with open('../contents/' + post + '/raw.md') as f_src:
+    with open('contents/' + post + '/raw.md') as f_src:
         lines = f_src.readlines()
 
     notMLcode = True
@@ -19,15 +19,15 @@ def process(post): ## for future extension: rewrite as a class
         ## enable folding:
         indent_level = len(findall(r'^[ \t]*', lines[i])[0])
         if i > 0 and notMLcode and indent_level > indent_level_prev:
-            fold_targ = r'\1<input type="checkbox" id="fold%d">' % i
+            fold_targ = r'\1<input type="checkbox" name="fchk" id="fold%d">' % i
             fold_targ += r'<label for="fold%d">\2</label>\n' % i
             lines[i - 1] = sub(fold_pat, fold_targ, lines[i - 1])
         indent_level_prev = indent_level
         if len(findall(r'^\s*`{3}', lines[i])) > 0:
             notMLcode = not notMLcode
 
-    mod_time = time.localtime(os.path.getmtime('../contents/' + post + '/raw.md'))
-    with open('../contents/' + post + '/index.md', 'w') as f_targ:
+    mod_time = time.localtime(os.path.getmtime('contents/' + post + '/raw.md'))
+    with open('contents/' + post + '/index.md', 'w') as f_targ:
         f_targ.write('---\nlayout: folded_post\ntitle: "' + post + '"\n'
                 + time.strftime('date: %Y-%m-%d +0800', mod_time) 
                 + '\ncategories: jekyll update\n---\n\n')
@@ -39,7 +39,7 @@ def process(post): ## for future extension: rewrite as a class
 
 if __name__ == "__main__":
     # filenames = [fname for fname in os.listdir('dir/') if os.path.splitext(name)[1] == '.md']
-    for post in os.listdir('../contents/'):
+    for post in os.listdir('contents/'):
         print(post)
         process(post)
 
