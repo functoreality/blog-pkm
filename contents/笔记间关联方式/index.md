@@ -1,11 +1,11 @@
 ---
 layout: folded_post
 title: "笔记间关联方式"
-date: 2022-07-26 +0800
+date: 2022-08-04 +0800
 categories: jekyll update
 ---
 
-* 本文受到 Nick Milo《笔记间的关联方式比较》启发。文章链接：[中文翻译](https://zhuanlan.zhihu.com/p/373862260)，[英文原文](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6)。
+* 本文受到 Nick Milo《如何在笔记之间形成有效的关联？》启发。文章链接：[中文翻译](https://zhuanlan.zhihu.com/p/373862260)，[英文原文](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6)。
 * <input type="checkbox" name="fchk" id="fold2"><label for="fold2">**文件夹**：最直观的笔记分类方式，其功能可被 MOC 替代。</label>
 	* 文件夹维护了一种等级式的秩序。存放在同一个文件夹下的笔记有着相同的类别，它们通过这种方式被关联起来。
 	* 如果能够以 MECE 的原则决定各笔记记录的存放位置，则能够给查找带来方便。只要根据分类原则顺着文件夹往下找，就能立刻找到想要的记录。

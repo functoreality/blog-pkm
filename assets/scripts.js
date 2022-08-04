@@ -1,5 +1,5 @@
 //https://www.techiedelight.com/implement-select-all-check-box-html-javascript/
-function expandFoldAll(){  
+function toggleFold(){  
 	this.checked = ~this.checked;
 	var ele=document.getElementsByName('fchk');  
 	//document.querySelectorAll('input[type="checkbox"]');
