@@ -28,7 +28,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # baseurl: "/blog-pkm" # the subpath of your site, e.g. /blog
 url: "https://functoreality.github.io/blog-pkm" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username: functoreality/blog-pkm
+github_username: functoreality
 markdown: GFM
 
 # Build settings
