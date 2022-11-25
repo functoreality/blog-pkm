@@ -1,7 +1,7 @@
 ---
 layout: folded_post
 title: "MOC的组织"
-date: 2022-09-04 +0800
+date: 2022-11-18 +0800
 categories: jekyll update
 ---
 
@@ -193,23 +193,24 @@ categories: jekyll update
 			* 如果所用的软件允许，可以制作点击后直接跳转的链接。
 	* <input type="checkbox" name="fchk" id="fold187"><label for="fold187">此外，如果希望能通过直接点击图片上的元素来跳转到对应笔记，就还需要依赖软件的支持（可以靠外部图谱程序和笔记软件的联动来实现）。</label>
 		* <input type="checkbox" name="fchk" id="fold188"><label for="fold188">关于制作外部图谱的程序，可以参考临时哈桑所写的[《汇总：一些真正有用的「手动」图谱》](https://www.yuque.com/deerain/gannbs/ng66g6)，其中的效果展示图片也可以作为这类 MOC 的示例。</label>
-			* 其中的 URL scheme 是图谱与笔记软件联动的方式，用它可以达到这种点击跳转的效果。可以参考同一作者对此的[介绍](https://www.yuque.com/deerain/gannbs/hb0gsd#0a7dfbfe)。
+			* 文中的 URL scheme 是图谱与笔记软件联动的方式，用它可以达到这种点击跳转的效果。可以参考同一作者对此的[介绍](https://www.yuque.com/deerain/gannbs/hb0gsd#0a7dfbfe)。
+		* 据说 Obsidian 软件中使用最新版的 Excalidraw 插件可以支持在图谱中嵌入跳转链接；笔者暂时还没有对此进行测试。
 		*  另外，yuchen_lea 的[《请不要神化双链笔记》](https://sspai.com/post/65273)一文中也用 Emacs org-mode 结合 draw.io 给出了跳转效果的演示（原文有动图）。
 			<!-- > 在 draw.io 等专业工具中绘制笔记的关系图，为笔记节点添加相应的笔记链接。这样在导出 svg 图片后，点击笔记节点，就可以跳转到笔记软件中的相应笔记。
 			* 据笔者推测，yuchen_lea 使用的软件是 Emacs org-mode，它的功能极其强大，但相应的高昂学习成本令许多人望而却步。对大多数人而言，这样的投入也确实没有必要。 -->
 			<!-- * 若之前熟悉的工具不支持在图片中加入跳转链接，则需要寻找可用的新工具，后续的安装、测试、学习也会消耗一部分时间精力。 -->
 		* （如果有读者还了解其他可实现该功能的软件，可以在项目的 [GitHub issues](https://github.com/functoreality/blog-pkm/issues) 中提出，或者直接发起 pull request，从而为其他读者提供参考。）
-	* <input type="checkbox" name="fchk" id="fold195"><label for="fold195">若没有合适的软件，或者觉得带跳转功能图片的制作成本偏高，可以考虑对图形中各元素编号，并额外建立一个文字版本 MOC，给出各个编号的对应链接。</label>
+	* <input type="checkbox" name="fchk" id="fold196"><label for="fold196">若没有合适的软件，或者觉得带跳转功能图片的制作成本偏高，可以考虑对图形中各元素编号，并额外建立一个文字版本 MOC，给出各个编号的对应链接。</label>
 		* 对于用这种方式呈现的 MOC，其文字部分相当于图形部分的注释。查看图片时，若想跳转到特定图形元素的对应笔记，则可根据图形中所标的编号，在文字部分找到相应的链接，点击即可跳转。
-		* <input type="checkbox" name="fchk" id="fold197"><label for="fold197">如果不建立相应的文字版本 MOC，而单纯依据图片内容来自行寻找笔记，则查找笔记的过程稍显繁琐，不如这种方法好用。</label>
-			* <input type="checkbox" name="fchk" id="fold198"><label for="fold198">此外，若将笔记的完整标题放在图形中，而有的笔记标题较长，就容易挤占本就有限的图形空间，削弱了图形表达简洁、直观的优势。</label>
+		* <input type="checkbox" name="fchk" id="fold198"><label for="fold198">如果不建立相应的文字版本 MOC，而单纯依据图片内容来自行寻找笔记，则查找笔记的过程稍显繁琐，不如这种方法好用。</label>
+			* <input type="checkbox" name="fchk" id="fold199"><label for="fold199">此外，若将笔记的完整标题放在图形中，而有的笔记标题较长，就容易挤占本就有限的图形空间，削弱了图形表达简洁、直观的优势。</label>
 				* 一些笔记方法提倡将笔记标题作为其内容的概括（笔者也认为这种做法有实用价值），这就会带来许多长标题的笔记，加剧了问题。
 			* 若只放相应笔记的简称，日后可能不易找到，尤其是对该主题记忆不再清晰的时候。
 			* 放置笔记的 ID（包括时间戳），则需要手动输入 ID 才能找到笔记，不够方便。
 			* 放笔记的关键词、关键短语，靠软件搜索功能寻找笔记，则要考虑到日后新增的笔记可能涉及相同的关键词，从而导致歧义，给查找带来困扰。
-		* <input type="checkbox" name="fchk" id="fold203"><label for="fold203">由于不需要在图片中实现跳转功能，图形绘制软件、工具的选择更多，包括一些之前已经熟悉了的工具。</label>
+		* <input type="checkbox" name="fchk" id="fold204"><label for="fold204">由于不需要在图片中实现跳转功能，图形绘制软件、工具的选择更多，包括一些之前已经熟悉了的工具。</label>
 			* 例如：Office/WPS 绘图功能，可以导出图片以方便查看、嵌入已有笔记文档。
-			* <input type="checkbox" name="fchk" id="fold205"><label for="fold205">UML 图，许多 Markdown 查看器支持这部分语法。</label>
+			* <input type="checkbox" name="fchk" id="fold206"><label for="fold206">UML 图，许多 Markdown 查看器支持这部分语法。</label>
 				* 可以使用在线编辑器 [PlantUML](http://www.plantuml.com/plantuml/uml/) 编辑预览。
 			* 特定的画图软件，如开源免费的 draw.io。
 			* 在线画图工具，如开箱即用的 [excalidraw](https://excalidraw.com/)，能导出图片，可以在本地保存、读取源文件。
@@ -217,7 +218,7 @@ categories: jekyll update
 			* 甚至可以用纸笔画出想要的示意图，将拍照所得的图片文件加入到笔记系统中。
 			* ……
 			* 此外，读者也可以参考马大伟的[《我的绘图工具箱》](https://www.bmpi.dev/self/my-drawing-toolbox/)（虽然它不是针对笔记系统 MOC 制作而写），其中对许多白板绘图、文本绘图等方面的工具进行了介绍。
-		* <input type="checkbox" name="fchk" id="fold213"><label for="fold213">图形中元素的编号也可以换成其他类型的标记，不过通常需要可排序，从而文字部分的链接可以按顺序排列，查找起来较为方便。</label>
+		* <input type="checkbox" name="fchk" id="fold214"><label for="fold214">图形中元素的编号也可以换成其他类型的标记，不过通常需要可排序，从而文字部分的链接可以按顺序排列，查找起来较为方便。</label>
 			* 例如，如果图片里已经有一些数字，为避免混淆，可以用字母而非数字来标记各个链接。（不过不同颜色的数字也可以用来区分。）
 			* 标记里也可以引入稍复杂的元素，以表达特定的含义，例如进行简单的分类。（如果 MOC 里本来就没几个链接，复杂的标记通常还不如简单的编号好用。）
 			* 用于分类的标记可以写成 `4A2b` 的样子（有点像卢曼式的笔记编号）。不过标记不宜太长，以免给寻找相应链接的位置带来麻烦。

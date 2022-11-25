@@ -9,8 +9,8 @@ layout: home
 * 讨论可在对应仓库的 [GitHub issues](https://github.com/functoreality/blog-pkm/issues) 下进行。希望这些内容能够引发有益的交流 :)
 
 ## 文章列表
-* [笔记间关联方式比较](contents/笔记间关联方式比较/) （施工中）
-* [MOC的组织](contents/MOC的组织/)：为各种不同复杂度的 MOC（内容地图）提供组织方式上的参考。
+* [笔记间关联方式比较](contents/笔记间关联方式比较/) （施工中）：文件夹、标签、双链和 MOC（内容地图）等是笔记管理的常用手段，这篇文章将它们作为建立笔记间关联的方式，并分别讨论了它们的能力与局限性。
+* [MOC的组织](contents/MOC的组织/)：MOC 需要以合适的方式组织起来才便于使用，而不同 MOC 适合的组织方式也不尽相同。这篇文章试图为此提供一些参考。
 
 ## License
 ![CC BY-SA 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
