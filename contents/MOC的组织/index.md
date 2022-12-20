@@ -1,7 +1,7 @@
 ---
 layout: folded_post
 title: "MOC的组织"
-date: 2022-11-18 +0800
+date: 2022-12-20 +0800
 categories: jekyll update
 ---
 
@@ -22,7 +22,7 @@ categories: jekyll update
 		> - **MOC (内容地图)** - 一种灵活的高阶笔记，可以实现上述所有的收集、概述、结构化和导航的目的。此外，它还是一种*积极的思考工具*，可以重塑、连接和构建思想。
 	* 笔者不打算对这些概念进行细致的区分。不同复杂度、用于不同目的的高阶笔记适合不同的组织方式（这也是本文的主题），笔者只将它们作为不同形式的 MOC 看待。
 	* <input type="checkbox" name="fchk" id="fold17"><label for="fold17">如果读者喜欢，也可以自己把“MOC”替换成别的名词。</label>
-		* 例如，临时哈桑在他的[《MOC - 管理链接而非本体》](https://www.yuque.com/deerain/gannbs/hb0gsd)一文中把 MOC 称作笔记的“抽象层”。
+		* 例如，deerain 在他的[《MOC - 管理链接而非本体》](https://www.yuque.com/deerain/gannbs/hb0gsd)一文中把 MOC 称作笔记的“抽象层”。
 		* 网站 zettelkasten.de 的[《卢曼卡片盒笔记法介绍》](https://zettelkasten.de/introduction/zh/#%E7%BB%93%E6%9E%84%E5%8C%96%E7%AC%94%E8%AE%B0-structure-note)使用了“元笔记（meta-note）”的说法。
 		* 临安[《我的文献阅读笔记流程》](https://forum-zh.obsidian.md/t/topic/292#heading-3)采用“主题汇总笔记”这一称呼。
 	* 需要强调的是，MOC 以链接为主体，不意味着其中不需要有文字，也不意味着这些文字不重要。事实上，MOC 本身完全可以是一条有实质性内容的笔记，成为自己对特定主题和话题的辅助思考工具，而不仅仅是替代文件夹或标签的分类功能。这也将是本文的讨论重点之一。
@@ -112,7 +112,7 @@ categories: jekyll update
 	* 实际使用中不是所有信息都能在表格当中展现。比如，或许 [\[记录4]] 有类型 A 的因素，但又有其独特的地方，与其他类型 A 对应的记录并不那么相似，这从表格中没法一下子看出来。
 	*  此时可以考虑为表格添加“备注”栏，用于存放这些值得特别说明的东西。不过在备注信息较长时，表格的排版可能不尽如人意。若设置为点击或者鼠标悬停时才能查看，则又达不到一览无余的效果。
 		<!-- 这时，下一点中所给出的呈现方式或许能作为表格形式的一种替代方案。 -->
-	* 另外，如果觉得笔记软件自带的表格功能无法满足自己的需求，可以参考临时哈桑所写的[《MOC - 管理链接而非本体》外部表格 MOC 部分](https://www.yuque.com/deerain/gannbs/hb0gsd#b4e2c2fa)，配合外部表格软件（比如 Excel）来进行管理。
+	* 另外，如果觉得笔记软件自带的表格功能无法满足自己的需求，可以参考 deerain 所写的[《MOC - 管理链接而非本体》外部表格 MOC 部分](https://www.yuque.com/deerain/gannbs/hb0gsd#b4e2c2fa)，配合外部表格软件（比如 Excel）来进行管理。
 * <input type="checkbox" name="fchk" id="fold109"><label for="fold109">表格能够直接呈现的信息比较有限。若希望补充一些额外的文字解读，可以考虑将表格改写为多层嵌套列表的形式，依据 分类维度、具体类型、笔记链接 分别展开各层内容。</label>
 	*  例如：
 		```markdown
@@ -183,7 +183,7 @@ categories: jekyll update
 				* <input type="checkbox" name="fchk" id="fold176"><label for="fold176">此时可以考虑在文档的图片后放置一个 URL scheme 链接，点击链接能启动专门的图片查看程序、并打开同一张图片。</label>
 					* 这样的图片查看程序不仅要支持带链接的图片，通过 URL scheme 启动笔记软件、打开相应笔记，
 					* 还需要它本身能被 URL scheme 启动，打开特定的图片。
-					* 关于能够实现软件间联动的 URL scheme，可以参考临时哈桑给出的[介绍（这是一篇长文的一部分）](https://www.yuque.com/deerain/gannbs/hb0gsd#0a7dfbfe)。
+					* 关于能够实现软件间联动的 URL scheme，可以参考 deerain 给出的[介绍（这是一篇长文的一部分）](https://www.yuque.com/deerain/gannbs/hb0gsd#0a7dfbfe)。
 				* 也可以只给出简单的文字提示，说明相应图片文件的所在位置；之后手动找到这张图片，并用专门程序打开。
 				* 这样在文档里即可方便地查看 MOC 图形部分。只有在需要点击链接、前往特定笔记时，才在专门的程序里打开这同一张图片。
 				* 与可修订性类似，带有链接信息的图片也可能有特定的格式，文档中没法直接查看。这也可以通过导出不同格式的图片来解决。
@@ -192,14 +192,14 @@ categories: jekyll update
 			* 此时通常需要在每个文件中标明另一个文件的位置，至少确保自己查看时能想起这个 MOC 还有当前文件之外的部分，并且能迅速找到这另一部分所在的文件。
 			* 如果所用的软件允许，可以制作点击后直接跳转的链接。
 	* <input type="checkbox" name="fchk" id="fold187"><label for="fold187">此外，如果希望能通过直接点击图片上的元素来跳转到对应笔记，就还需要依赖软件的支持（可以靠外部图谱程序和笔记软件的联动来实现）。</label>
-		* <input type="checkbox" name="fchk" id="fold188"><label for="fold188">关于制作外部图谱的程序，可以参考临时哈桑所写的[《汇总：一些真正有用的「手动」图谱》](https://www.yuque.com/deerain/gannbs/ng66g6)，其中的效果展示图片也可以作为这类 MOC 的示例。</label>
+		* <input type="checkbox" name="fchk" id="fold188"><label for="fold188">关于制作外部图谱的程序，可以参考 deerain 所写的[《汇总：一些真正有用的「手动」图谱》](https://www.yuque.com/deerain/gannbs/ng66g6)，其中的效果展示图片也可以作为这类 MOC 的示例。</label>
 			* 文中的 URL scheme 是图谱与笔记软件联动的方式，用它可以达到这种点击跳转的效果。可以参考同一作者对此的[介绍](https://www.yuque.com/deerain/gannbs/hb0gsd#0a7dfbfe)。
 		* 据说 Obsidian 软件中使用最新版的 Excalidraw 插件可以支持在图谱中嵌入跳转链接；笔者暂时还没有对此进行测试。
 		*  另外，yuchen_lea 的[《请不要神化双链笔记》](https://sspai.com/post/65273)一文中也用 Emacs org-mode 结合 draw.io 给出了跳转效果的演示（原文有动图）。
 			<!-- > 在 draw.io 等专业工具中绘制笔记的关系图，为笔记节点添加相应的笔记链接。这样在导出 svg 图片后，点击笔记节点，就可以跳转到笔记软件中的相应笔记。
 			* 据笔者推测，yuchen_lea 使用的软件是 Emacs org-mode，它的功能极其强大，但相应的高昂学习成本令许多人望而却步。对大多数人而言，这样的投入也确实没有必要。 -->
 			<!-- * 若之前熟悉的工具不支持在图片中加入跳转链接，则需要寻找可用的新工具，后续的安装、测试、学习也会消耗一部分时间精力。 -->
-		* （如果有读者还了解其他可实现该功能的软件，可以在项目的 [GitHub issues](https://github.com/functoreality/blog-pkm/issues) 中提出，或者直接发起 pull request，从而为其他读者提供参考。）
+		* （如果有读者还了解其他可实现该功能的工具，可以在评论区提出，这样可以为其他读者提供参考。）
 	* <input type="checkbox" name="fchk" id="fold196"><label for="fold196">若没有合适的软件，或者觉得带跳转功能图片的制作成本偏高，可以考虑对图形中各元素编号，并额外建立一个文字版本 MOC，给出各个编号的对应链接。</label>
 		* 对于用这种方式呈现的 MOC，其文字部分相当于图形部分的注释。查看图片时，若想跳转到特定图形元素的对应笔记，则可根据图形中所标的编号，在文字部分找到相应的链接，点击即可跳转。
 		* <input type="checkbox" name="fchk" id="fold198"><label for="fold198">如果不建立相应的文字版本 MOC，而单纯依据图片内容来自行寻找笔记，则查找笔记的过程稍显繁琐，不如这种方法好用。</label>

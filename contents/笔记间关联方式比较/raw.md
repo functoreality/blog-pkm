@@ -130,7 +130,7 @@
 		* 而如果是对一个 MOC 进行细分，也只是编辑一个或少数几个 MOC 文件，不需要打开各个笔记，同样十分方便。
 			* MOC 细分的第一种可能性是在 MOC 文件中新建小标题，并把原来的链接移动到相应的小标题下。这一过程只涉及一个文件内部的编辑操作。
 			* 第二种可能性是分裂出多个平行的 MOC 文件，原有 MOC 中的链接重新分配到新的 MOC 文件中。这实质上相当于文件的拆分，可以先在原来的文件里重排序后再整块拆成多个文件，复杂度和前一种可能性差别不大。
-			* 如果能利用好软件提供的一些编辑功能（例如 Vim 快捷键），这样的文件编辑过程将显得尤其轻松。
+			* 如果能利用好软件提供的一些编辑功能（例如拖动子节点，或 Vim 快捷键），这样的文件编辑过程将显得尤其轻松。
 			* 执行细分操作前，还需要判断每条笔记应归属于哪个细分分类、主题。如果 MOC 维护得当，在每个链接处都附上了合适的文字说明，那通常根据这些文字即可作出判断，不需要打开笔记查看其具体内容。
 		* 此外，相较文件夹和 MOC，使用标签时未必能及时地发现其下的内容过多。在意识到某个标签需要进行细分时，其下已有的内容可能已经增长到太多，再要细分就比较麻烦了。
 			* 一个文件夹、一个 MOC 下有多少内容是立即可见的。当把新笔记加入特定文件夹或者 MOC 的时候，我们能很快看出已有的内容数量达到了可以细分的临界点，并启动相应的处理流程。
@@ -138,4 +138,40 @@
 			* 就标签细分这件事而言，其性价比在数量的临界点附近才比较高。如果及时进行了细分，后续添加笔记时可以直接使用新的子标签。相反，要是又添加了大量笔记后才考虑细分，则所有的判断和编辑成本将会全部累积起来，代价相对高昂。
 			* 若软件支持实时显示各标签下的笔记总数，则可以极大地缓解这一问题。不过由于细分的临界点可能还与具体内容有关，在没有像文件夹、MOC 那样看到其下的具体内容分布的情况下，对细分时机的把握也未必十分准确。
 			* 如果形成了固定且可靠的工作流，在每次添加笔记时都搜索一遍为它加上的所有标签，则可以避免这一问题。
+* **空间邻近**：使用电子笔记时，笔记间空间邻近关系的作用容易被忽略，不过它仍是一种有价值的关联。
+	* 若将多条笔记排列在特定的空间位置上，则紧挨着的笔记之间形成了较强的成对关联，而相隔了一些距离的笔记之间也形成了弱关联。如此建立的空间邻近关系可认为是介于成对关联与集体关联之间的一种关联方式。
+	* 要为笔记安排这样的特定空间位置，使用顺序结构是较为常见的做法。
+		* 不过空间上的顺序结构不总是表示逻辑上的顺序结构（如承接与递进关系），它有时也可以只用来表明不同笔记之间的相关关系，这些笔记在逻辑上是并列的。
+		* 相比之下，在笔记中添加“上一篇”“下一篇”链接的做法尽管也表示顺序关系，但主要是逻辑上的。这种做法相对而言缺乏空间感，使用时难以直接看到并非直接相邻的笔记，因此建立的仅仅是成对关联。
+	* 空间邻近关系可用多种方式体现。例如，卢曼在他的纸质卡片盒中采用了 folgezettel（英文：sequence of notes，中文：笔记序列）这一做法，并为相应的卡片设置连续的或分支式的编号。
+	* 在一些大纲型双链笔记软件中，可以将许多（甚至是所有的）笔记放在同一个文件内，其中相关性高的笔记可以安排在同一个无序列表中的相邻位置。这为这些笔记建立起了空间邻近式的关联。
+		* 例如，deerain 所写的[《MOC - 管理链接而非本体》](https://www.yuque.com/deerain/gannbs/hb0gsd) 开头提到 Emacs org-mode 就可以把所有笔记都写到同一个文件里（需要结合一些特殊配置）。
+			> 虽然上手有一定成本，但 Emacs 中的 org-mode 直到今天依然是最强大的大纲编辑器，很多人都用它来记录笔记，在 \*nix 系统上，配合陈斌的个人配置中的 `narrow-or-widen-dwim` 函数，把所有内容都写到一个文件里也能有很好的操作体验。
+		* 这个博客里的文章也是由笔者自己的笔记修改而来，可以把每条折叠起来的内容看成是一条单独的笔记。
+	* 而对于文档型双链笔记软件，每条笔记存放于一个单独的文件中。此时若恰当设置文件名，可以使笔记依照自己期望的顺序排列。上面讨论文件夹关联方式时已经分析了这种做法，它有一定的局限性。
+	* MOC 是建立空间邻近式关联的最灵活、最有效的方式。
+		* 在 MOC 中，指向各笔记的链接可以根据自己的意愿自由排列。添加新笔记时，这种空间邻近关系不会被自动破坏。
+		* 由于 MOC 存放的不是笔记本体，而是指向笔记的链接，同一条笔记可以在多处同时出现，从而可以在不同语境下建立不同含义的空间邻近关联。
+		* MOC 的组织方式更为自由，其中所使用的空间位置关系不局限于顺序结构，在使用表格和图形形式的 MOC 时尤其如此。
+		* 此外，MOC 中还可添加解释性的文字，对相邻笔记间的关系做进一步的补充说明。
+		* [[MOC的组织]] 中的许多例子能够体现这样的空间邻近式关联。
+	* 空间邻近有几个方面的作用。用笔记系统来辅助思考时，可以使用顺序结构表示想法的发展过程，此时相应的空间邻近关系展现了笔记的上下文。
+		* Daniel [You Underestimate the Power of the Dark Folgezettel](https://strengejacke.wordpress.com/2015/11/01/you-underestimate-the-power-of-the-dark-folgezettel/) 一文认为两条笔记间的直接链接较为随意，其上下文不完全清楚，这与使用 folgezettel 继续一个想法不同。
+			> A manual link or reference between two notes is, technically and regarding the context, something different than continuing an idea via Folgezettel (note sequences).
+			> 
+			> Links or references do not emphasize the relationship between notes (ideas, content). The context of connections usually remains unclear due to arbitrary relationships. Folgezettel, however, create specific relationships – adding manual links (references) to these relationships create relationship of relationships, the core aspect of Luhmann’s working principle (which he describes as „Relationierung von Relationen“).
+		* Eva Thomas [Understanding Zettelkasten — What does it mean to communicate with the slip-box](https://medium.com/@ethomasv/understanding-zettelkasten-d0ca5bb1f80e) 认为使用顺序结构容易组装出连贯的论点组合。此外，可以再引入单独的笔记来概括一串笔记序列的内容。
+			> Keeping track of sequences is beneficial because we can use a long thread of
+			> thoughts for our writing. It is ready for us — we don’t have to re-read a
+			> stack of notes to assemble a **coherent combination of arguments**. Luckily,
+			> IDs are not the only way. Luhmann used separate notes to keep track of
+			> sequences. He would add a title or a keyword to the top, elaborating on what
+			> concept he is specifying with the outline by writing a list of notes with
+			> their corresponding IDs and titles. Using separate notes for this is practical
+			> because it allows us to keep track of all sequences of the same note.
+		* 考虑到同一个想法可以有不同的后续发展方向，笔记也不应局限于严格的顺序结构。卢曼的 folgezettel 里还使用了分支结构，不同分支在逻辑上可以是并列的。此外，综合利用链接等其他关联方式也可以作为有益的补充。
+	* 空间邻近是需要主动设置的关联。在添加新笔记时，需要决定它适合放在哪些已有笔记附近，而这促使我们思考新笔记与已有笔记间的关系，从而加深对相应主题的理解，并可能发现新的联系。
+		* yuchen_lea[《请不要神化双链笔记》](https://sspai.com/post/65273) 评价卢曼的方法时提到：“思考笔记该如何编号的过程，其实就是对笔记分类。合理的分类需要思考这个笔记与其他笔记的区别与联系，加深对该领域的认识，也是对大脑规律识别系统的一种训练。”
+	* 此外，将笔记放到相应位置的时候，往往还会重读附近的笔记，这可以（在非刻意复习的前提下）帮助强化对这些内容的记忆。
+		* yuchen_lea[《请不要神化双链笔记》](https://sspai.com/post/65273) 认为卢曼“将卡片放到对应位置的时候，会重读邻近位置、也就是相近主题下的其他卡片，强化对该主题的记忆。”
 （施工中）
