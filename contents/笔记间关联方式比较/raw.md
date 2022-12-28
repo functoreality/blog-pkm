@@ -160,7 +160,7 @@
 			> A manual link or reference between two notes is, technically and regarding the context, something different than continuing an idea via Folgezettel (note sequences).
 			> 
 			> Links or references do not emphasize the relationship between notes (ideas, content). The context of connections usually remains unclear due to arbitrary relationships. Folgezettel, however, create specific relationships – adding manual links (references) to these relationships create relationship of relationships, the core aspect of Luhmann’s working principle (which he describes as „Relationierung von Relationen“).
-		* Eva Thomas [Understanding Zettelkasten — What does it mean to communicate with the slip-box](https://medium.com/@ethomasv/understanding-zettelkasten-d0ca5bb1f80e) 认为使用顺序结构容易组装出连贯的论点组合。此外，可以再引入单独的笔记来概括一串笔记序列的内容。
+		* Eva Thomas [Understanding Zettelkasten — What does it mean to communicate with the slip-box](https://medium.com/@ethomasv/understanding-zettelkasten-d0ca5bb1f80e)（需翻墙）认为使用顺序结构容易组装出连贯的论点组合。此外，可以再引入单独的笔记来概括一串笔记序列的内容。
 			> Keeping track of sequences is beneficial because we can use a long thread of
 			> thoughts for our writing. It is ready for us — we don’t have to re-read a
 			> stack of notes to assemble a **coherent combination of arguments**. Luckily,

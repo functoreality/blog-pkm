@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 笔记系统方法论
+title: 笔记系统方法论？
 author: functoreality
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  管理双链笔记系统的过程中产生的思考。
-  主要关注一般性的原则，而较少谈及特定的笔记软件。
+  卡片盒笔记法与双链笔记工具近来受到较多关注。
+  这里记录了个人对笔记系统方法与理念的一些思考，而较少谈及特定的笔记软件。
   （CC BY-SA 4.0）
 # baseurl: "/blog-pkm" # the subpath of your site, e.g. /blog
 url: "https://functoreality.github.io/blog-pkm" # the base hostname & protocol for your site, e.g. http://example.com
