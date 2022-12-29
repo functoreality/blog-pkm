@@ -1,7 +1,7 @@
 ---
 layout: folded_post
 title: "笔记间关联方式比较"
-date: 2022-12-25 +0800
+date: 2022-12-29 +0800
 categories: jekyll update
 ---
 
@@ -150,24 +150,36 @@ categories: jekyll update
 	* <input type="checkbox" name="fchk" id="fold143"><label for="fold143">要为笔记安排这样的特定空间位置，使用顺序结构是较为常见的做法。</label>
 		* 不过空间上的顺序结构不总是表示逻辑上的顺序结构（如承接与递进关系），它有时也可以只用来表明不同笔记之间的相关关系，这些笔记在逻辑上是并列的。
 		* 相比之下，在笔记中添加“上一篇”“下一篇”链接的做法尽管也表示顺序关系，但主要是逻辑上的。这种做法相对而言缺乏空间感，使用时难以直接看到并非直接相邻的笔记，因此建立的仅仅是成对关联。
-	* 空间邻近关系可用多种方式体现。例如，卢曼在他的纸质卡片盒中采用了 folgezettel（英文：sequence of notes，中文：笔记序列）这一做法，并为相应的卡片设置连续的或分支式的编号。
+	* 空间邻近关系可用多种方式体现。例如，卢曼在他的纸质卡片盒中采用了笔记序列（德文：folgezettel，英文：sequence of notes）这一做法，并为相应的卡片设置连续的或分支式的编号。
 	* <input type="checkbox" name="fchk" id="fold147"><label for="fold147">在一些大纲型双链笔记软件中，可以将许多（甚至是所有的）笔记放在同一个文件内，其中相关性高的笔记可以安排在同一个无序列表中的相邻位置。这为这些笔记建立起了空间邻近式的关联。</label>
 		* <input type="checkbox" name="fchk" id="fold148"><label for="fold148">例如，deerain 所写的[《MOC - 管理链接而非本体》](https://www.yuque.com/deerain/gannbs/hb0gsd) 开头提到 Emacs org-mode 就可以把所有笔记都写到同一个文件里（需要结合一些特殊配置）。</label>
 			> 虽然上手有一定成本，但 Emacs 中的 org-mode 直到今天依然是最强大的大纲编辑器，很多人都用它来记录笔记，在 \*nix 系统上，配合陈斌的个人配置中的 `narrow-or-widen-dwim` 函数，把所有内容都写到一个文件里也能有很好的操作体验。
 		* 这个博客里的文章也是由笔者自己的笔记修改而来，可以把每条折叠起来的内容看成是一条单独的笔记。
-	* 而对于文档型双链笔记软件，每条笔记存放于一个单独的文件中。此时若恰当设置文件名，可以使笔记依照自己期望的顺序排列。上面讨论文件夹关联方式时已经分析了这种做法，它有一定的局限性。
-	* <input type="checkbox" name="fchk" id="fold152"><label for="fold152">MOC 是建立空间邻近式关联的最灵活、最有效的方式。</label>
+	* <input type="checkbox" name="fchk" id="fold151"><label for="fold151">事实上，卢曼所用的笔记序列完全可以看成大纲笔记在纸质时代的物理实现。</label>
+		* 这涉及到原子化单位的理解问题。许多人倾向于将一个独立的笔记页面（或文件）视为原子化单位，但大纲笔记中完全可以将一行（即列表中的一点）视为原子化单位。
+		* 在卢曼的笔记序列里添加一条编号递增的新笔记（如在 `1a` 笔记后添加 `1b` 编号的笔记），可对应大纲笔记中在同一缩进层级的列表里换行，新增一个点。
+		* 而添加一条编号新增一位的新笔记（如在 `1a` 笔记后添加 `1a1` 编号的笔记），可对应大纲笔记中在当前点下新增一点，并使用更高的缩进层级。
+		* 如果把大纲笔记中的列表都作为有序列表，奇数层级用数字 `123` 编号，偶数层级用字母 `abc` 编号，则一条记录的位置可以表示为 `1a2b3c` 形式，这恰好就是卢曼笔记序列的编号方式。
+		* 读者可以查看 [（翻译）卢曼关于卡片盒的卡片](../（翻译）卢曼关于卡片盒的卡片/) 中的原始卡片。如果把这些笔记按照编号层级改写成大纲笔记的形式，看起来似乎也很自然。
+		* <input type="checkbox" name="fchk" id="fold157"><label for="fold157">另外，在大纲笔记的实际使用中，浅层级的点可能只是一个短语，而非一句或几句完整的话。卢曼二代卡片盒中编号较短的卡片也有着类似的特点，例如 [编号 9 的卡片](https://niklas-luhmann-archiv.de/bestand/zettelkasten/zettel/ZK_2_NB_9_V) 上就只写了“临时说明”一词。</label>
+			* 这样看来，如果要实现电子版本的卢曼卡片盒，将每张卡片作为一个单独文件的做法多少显得有些奇怪。
+		* <input type="checkbox" name="fchk" id="fold159"><label for="fold159">可以作出这样的猜想：如果一个大纲笔记用户某天突然回到了纸质时代，则无奈之下所形成的笔记记录方式很可能与卢曼的笔记序列类似。</label>
+			* 原来大纲笔记一行的内容，现在改用很小的一张纸片记录。如果日后要在某一点下新增补充性的文字（多一个缩进层级），可以直接插入一张新的纸片。
+			* 相比之下，若在一张纸上面写下了多个点的内容，则之后对其中某点追加补充说明将不那么方便。
+			* 每张纸片的编号当然也可以用类似的方式，在电子大纲笔记中对应的缩进层级越多，相应纸片的编号也就越长。
+	* 若将每条笔记存放于一个单独的文件中（文档型双链笔记软件的默认管理方式），如果恰当设置文件名，也可以使笔记依照自己期望的顺序排列。上面讨论文件夹关联方式时已经分析了这种做法，它不是那么好用。
+	* <input type="checkbox" name="fchk" id="fold164"><label for="fold164">MOC 是建立空间邻近式关联的最灵活、最有效的方式。</label>
 		* 在 MOC 中，指向各笔记的链接可以根据自己的意愿自由排列。添加新笔记时，这种空间邻近关系不会被自动破坏。
 		* 由于 MOC 存放的不是笔记本体，而是指向笔记的链接，同一条笔记可以在多处同时出现，从而可以在不同语境下建立不同含义的空间邻近关联。
 		* MOC 的组织方式更为自由，其中所使用的空间位置关系不局限于顺序结构，在使用表格和图形形式的 MOC 时尤其如此。
 		* 此外，MOC 中还可添加解释性的文字，对相邻笔记间的关系做进一步的补充说明。
 		* [MOC的组织](../MOC的组织/) 中的许多例子能够体现这样的空间邻近式关联。
-	* <input type="checkbox" name="fchk" id="fold158"><label for="fold158">空间邻近有几个方面的作用。用笔记系统来辅助思考时，可以使用顺序结构表示想法的发展过程，此时相应的空间邻近关系展现了笔记的上下文。</label>
-		* <input type="checkbox" name="fchk" id="fold159"><label for="fold159">Daniel [You Underestimate the Power of the Dark Folgezettel](https://strengejacke.wordpress.com/2015/11/01/you-underestimate-the-power-of-the-dark-folgezettel/) 一文认为两条笔记间的直接链接较为随意，其上下文不完全清楚，这与使用 folgezettel 继续一个想法不同。</label>
+	* <input type="checkbox" name="fchk" id="fold170"><label for="fold170">空间邻近有几个方面的作用。用笔记系统来辅助思考时，可以使用顺序结构表示想法的发展过程，此时相应的空间邻近关系展现了笔记的上下文。</label>
+		* <input type="checkbox" name="fchk" id="fold171"><label for="fold171">Daniel [You Underestimate the Power of the Dark Folgezettel](https://strengejacke.wordpress.com/2015/11/01/you-underestimate-the-power-of-the-dark-folgezettel/) 一文认为两条笔记间的直接链接较为随意，其上下文不完全清楚，这与使用笔记序列继续一个想法不同。</label>
 			> A manual link or reference between two notes is, technically and regarding the context, something different than continuing an idea via Folgezettel (note sequences).
 			> 
 			> Links or references do not emphasize the relationship between notes (ideas, content). The context of connections usually remains unclear due to arbitrary relationships. Folgezettel, however, create specific relationships – adding manual links (references) to these relationships create relationship of relationships, the core aspect of Luhmann’s working principle (which he describes as „Relationierung von Relationen“).
-		* <input type="checkbox" name="fchk" id="fold163"><label for="fold163">Eva Thomas [Understanding Zettelkasten — What does it mean to communicate with the slip-box](https://medium.com/@ethomasv/understanding-zettelkasten-d0ca5bb1f80e)（需翻墙）认为使用顺序结构容易组装出连贯的论点组合。此外，可以再引入单独的笔记来概括一串笔记序列的内容。</label>
+		* <input type="checkbox" name="fchk" id="fold175"><label for="fold175">Eva Thomas [Understanding Zettelkasten — What does it mean to communicate with the slip-box](https://medium.com/@ethomasv/understanding-zettelkasten-d0ca5bb1f80e)（需翻墙）认为使用顺序结构容易组装出连贯的论点组合。此外，可以再引入单独的笔记来概括一串笔记序列的内容。</label>
 			> Keeping track of sequences is beneficial because we can use a long thread of
 			> thoughts for our writing. It is ready for us — we don’t have to re-read a
 			> stack of notes to assemble a **coherent combination of arguments**. Luckily,
@@ -176,9 +188,9 @@ categories: jekyll update
 			> concept he is specifying with the outline by writing a list of notes with
 			> their corresponding IDs and titles. Using separate notes for this is practical
 			> because it allows us to keep track of all sequences of the same note.
-		* 考虑到同一个想法可以有不同的后续发展方向，笔记也不应局限于严格的顺序结构。卢曼的 folgezettel 里还使用了分支结构，不同分支在逻辑上可以是并列的。此外，综合利用链接等其他关联方式也可以作为有益的补充。
-	* <input type="checkbox" name="fchk" id="fold173"><label for="fold173">空间邻近是需要主动设置的关联。在添加新笔记时，需要决定它适合放在哪些已有笔记附近，而这促使我们思考新笔记与已有笔记间的关系，从而加深对相应主题的理解，并可能发现新的联系。</label>
+		* 考虑到同一个想法可以有不同的后续发展方向，笔记也不应局限于严格的顺序结构。卢曼的笔记序列里还使用了分支结构，不同分支在逻辑上可以是并列的。此外，综合利用链接等其他关联方式也可以作为有益的补充。
+	* <input type="checkbox" name="fchk" id="fold185"><label for="fold185">空间邻近是需要主动设置的关联。在添加新笔记时，需要决定它适合放在哪些已有笔记附近，而这促使我们思考新笔记与已有笔记间的关系，从而加深对相应主题的理解，并可能发现新的联系。</label>
 		* yuchen_lea[《请不要神化双链笔记》](https://sspai.com/post/65273) 评价卢曼的方法时提到：“思考笔记该如何编号的过程，其实就是对笔记分类。合理的分类需要思考这个笔记与其他笔记的区别与联系，加深对该领域的认识，也是对大脑规律识别系统的一种训练。”
-	* <input type="checkbox" name="fchk" id="fold175"><label for="fold175">此外，将笔记放到相应位置的时候，往往还会重读附近的笔记，这可以（在非刻意复习的前提下）帮助强化对这些内容的记忆。</label>
+	* <input type="checkbox" name="fchk" id="fold187"><label for="fold187">此外，将笔记放到相应位置的时候，往往还会重读附近的笔记，这可以（在非刻意复习的前提下）帮助强化对这些内容的记忆。</label>
 		* yuchen_lea[《请不要神化双链笔记》](https://sspai.com/post/65273) 认为卢曼“将卡片放到对应位置的时候，会重读邻近位置、也就是相近主题下的其他卡片，强化对该主题的记忆。”
 （施工中）

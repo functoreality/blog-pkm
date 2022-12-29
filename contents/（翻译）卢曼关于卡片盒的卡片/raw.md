@@ -28,7 +28,7 @@
 	> 
 	> Because of the previous point it is important that the order in the Zettelkasten is not aggregated merely under terms or complex single topics; although this is of course also necessary. But the connections shouldn’t merely cover the leading points aggregating collective terms, but must selectively pull away the material collected under them.
 	>
-	> 中译者注：翻译后一句时还参考了 [这篇文章](https://zettelkasten.de/posts/luhmanns-zettel-translated/) 中给出的英文翻译：
+	> 中译者注：翻译后一句时还参考了 Johannes F.K. Schmidt 所写文章 Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine 中给出的英文翻译：
 	>
 	> The references must not capture collective concepts that aggregate key aspects but must selectively lead away from the material subsumed under them. 
 * （9/8b2）对于复杂（以复杂的方式评估）信息的存储来说，“多重存储”是必要的。
