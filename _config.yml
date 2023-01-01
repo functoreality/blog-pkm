@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 笔记系统方法论？
+title: 笔记系统？方法论？
 author: functoreality
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -53,6 +53,7 @@ header_pages:
 #
 exclude:
   - contents/*/raw.md
+  - contents/*/zhihu.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

@@ -1,11 +1,11 @@
 ---
 layout: folded_post
 title: "（翻译）卢曼关于卡片盒的卡片"
-date: 2022-12-29 +0800
+date: 2023-01-01 +0800
 categories: jekyll update
 ---
 
-* <input type="checkbox" name="fchk" id="fold1"><label for="fold1">写在前面：卢曼的第二代卡片盒（Zettelkästen）里有几张卡片的内容是他自己关于卡片盒的评价。我自己不会德语，只能将 [Sascha 的英文翻译](https://zettelkasten.de/posts/luhmanns-zettel-translated/) 再译成中文。</label>
+* <input type="checkbox" name="fchk" id="fold1"><label for="fold1">写在前面：卢曼的第二代卡片盒（Zettelkästen）里有几张卡片的内容是他自己关于卡片盒的评价。本人不会德语，只能将 [Sascha 的英文翻译](https://zettelkasten.de/posts/luhmanns-zettel-translated/) 再译成中文。</label>
 	* 鉴于个人能力有限，且还有二次翻译带来的问题，这份翻译难免有不尽如人意之处。
 	* 基于有总比没有好的想法，我还是决定将这个不够完善的翻译版本发出来，作为我们了解卢曼的卡片笔记法的第一手资料。
 	* 如果有读者（尤其是懂德语的读者）对某处的翻译有疑惑，或者有更好的译法，都十分欢迎在评论区留言。

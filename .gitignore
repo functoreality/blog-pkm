@@ -7,4 +7,5 @@ vendor
 Gemfile
 Gemfile.lock
 contents/test/
+contents/*/zhihu.md
 todo
