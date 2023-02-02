@@ -1,12 +1,12 @@
 ---
 layout: folded_post
 title: "MOC的组织"
-date: 2023-01-01 +0800
+date: 2023-02-03 +0800
 categories: jekyll update
 ---
 
 ## 写在前面
-* <input type="checkbox" name="fchk" id="fold2"><label for="fold2">MOC（Map of Content）的常用中文翻译是“内容地图”。这个概念在有关双链笔记系统的讨论（尤其是 Obsidian 社区）中使用较多，这里也就沿用了这一称呼。</label>
+* <input type="checkbox" name="fchk" id="fold2"><label for="fold2">MOC（Map of Contents）的常用中文翻译是「内容地图」。这个概念在有关双链笔记系统的讨论（尤其是 Obsidian 社区）中使用较多，这里也就沿用了这一称呼。</label>
 	* <input type="checkbox" name="fchk" id="fold3"><label for="fold3">据我所知，MOC 一词最早由 Nick Milo 提出，并在他的 LYT Kit 中使用。</label>
 		* LYT Kit 中的 LYT 指 Linking Your Thinking——连接你的想法。[英文原版](https://notes.linkingyourthinking.com/)，[中文翻译版](https://github.com/nickmilo/LYT-Kit-in-Mandarin)。
 		英文版中，《什么是高阶笔记》可以在[这里](https://notes.linkingyourthinking.com/Cards/What+are+higher-order+notes)看到。
@@ -21,14 +21,14 @@ categories: jekyll update
 		> - **目录** - 一种引用各种材料的、已定稿（finalized）的结构。
 		> - **MOC (内容地图)** - 一种灵活的高阶笔记，可以实现上述所有的收集、概述、结构化和导航的目的。此外，它还是一种*积极的思考工具*，可以重塑、连接和构建思想。
 	* 本文不会对这些概念进行细致的区分。不同复杂度、用于不同目的的高阶笔记适合不同的组织方式（这也是本文的主题），这里只将它们作为不同形式的 MOC 看待。
-	* <input type="checkbox" name="fchk" id="fold17"><label for="fold17">如果读者喜欢，也可以自己把“MOC”替换成别的名词。</label>
-		* 例如，deerain 在他的[《MOC - 管理链接而非本体》](https://www.yuque.com/deerain/gannbs/hb0gsd)一文中把 MOC 称作笔记的“抽象层”。
-		* 网站 zettelkasten.de 的[《卢曼卡片盒笔记法介绍》](https://zettelkasten.de/introduction/zh/#%E7%BB%93%E6%9E%84%E5%8C%96%E7%AC%94%E8%AE%B0-structure-note)使用了“元笔记（meta-note）”的说法。
-		* 临安[《我的文献阅读笔记流程》](https://forum-zh.obsidian.md/t/topic/292#heading-3)采用“主题汇总笔记”这一称呼。
+	* <input type="checkbox" name="fchk" id="fold17"><label for="fold17">如果读者喜欢，也可以自己把「MOC」替换成别的名词。</label>
+		* 例如，deerain 在他的[《MOC - 管理链接而非本体》](https://www.yuque.com/deerain/gannbs/hb0gsd)一文中把 MOC 称作笔记的「抽象层」。
+		* 网站 zettelkasten.de 的[《卢曼卡片盒笔记法介绍》](https://zettelkasten.de/introduction/zh/#%E7%BB%93%E6%9E%84%E5%8C%96%E7%AC%94%E8%AE%B0-structure-note)使用了「元笔记（meta-note）」的说法。
+		* 临安[《我的文献阅读笔记流程》](https://forum-zh.obsidian.md/t/topic/292#heading-3)采用「主题汇总笔记」这一称呼。
 	* 需要强调的是，MOC 以链接为主体，不意味着其中不需要有文字，也不意味着这些文字不重要。事实上，MOC 本身完全可以是一条有实质性内容的笔记，成为自己对特定主题和话题的辅助思考工具，而不仅仅是替代文件夹或标签的分类功能。这也将是本文的讨论重点之一。
 * <input type="checkbox" name="fchk" id="fold22"><label for="fold22">MOC 在笔记系统中的作用类似于学术研究中的综述论文。</label>
-	* 在学术领域，众多的研究论文和它们间的相互引用关系组成了一个网络，而其中的文献综述所起的作用相当于“高阶论文”。在庞大的论文网络中摸索时，它能为研究者带来很大的帮助，尤其是刚进入这个领域的初学者。
-	* MOC 在我们的笔记网络中也起着类似的作用。因此若你喜欢，也可以把它们称作“笔记综述”。（这里也可以看出，MOC 虽然是个新的词汇，它所指代的东西其实不完全是新的。）
+	* 在学术领域，众多的研究论文和它们间的相互引用关系组成了一个网络，而其中的文献综述所起的作用相当于「高阶论文」。在庞大的论文网络中摸索时，它能为研究者带来很大的帮助，尤其是刚进入这个领域的初学者。
+	* MOC 在我们的笔记网络中也起着类似的作用。因此若你喜欢，也可以把它们称作「笔记综述」。（这里也可以看出，MOC 虽然是个新的词汇，它所指代的东西其实不完全是新的。）
 * <input type="checkbox" name="fchk" id="fold25"><label for="fold25">对于接触过学术研究的读者，综述论文的组织方式可以为 MOC 的写法提供许多参考。</label>
 	*  读者可以试着为一些综述文章撰写笔记。之后组织新的 MOC 时，就可以考虑参考（甚至直接套用）这类笔记的结构，只是原来笔记中的链接指向的是其他论文，而现在指向的是自己写过的其他笔记而已。
 		<!-- * 相对于综述文章来说，本文后续部分所提供 MOC 示例的复杂度偏低，不过实际操作中还是够用即可。 -->
@@ -79,12 +79,12 @@ categories: jekyll update
 		- 类型 C
 			- [[记录5]]
 		```
-	* <input type="checkbox" name="fchk" id="fold75"><label for="fold75">注：Nick Milo 在其 LYT Kit 中演示了“MOC 的三个阶段”，其最终形成的[习惯MOC](https://notes.linkingyourthinking.com/Atlas/MOCs/Library/Habits+MOC)大致就是这样的形式。</label>
+	* <input type="checkbox" name="fchk" id="fold75"><label for="fold75">注：Nick Milo 在其 LYT Kit 中演示了「MOC 的三个阶段」，其最终形成的[习惯MOC](https://notes.linkingyourthinking.com/Atlas/MOCs/Library/Habits+MOC)大致就是这样的形式。</label>
 		* <input type="checkbox" name="fchk" id="fold76"><label for="fold76">一个小区别在于，其中的笔记链接没有附带相应的文字描述。由于他在笔记标题设定时花了一些心思，使其能够概括笔记的主要内容，这些标题本身可以部分替代描述所起的功能。</label>
 			* 在一些情况下，使用高度概括性的笔记标题确实有一定作用。这方面也可以参考 Andy Matuschak 所写的《常青笔记的标题就像 API》（[英文原文](https://notes.andymatuschak.org/z3XP5GRmd9z1D2qCE7pxUvbeSVeQuMiqz9x1C)，[中文翻译](https://zhuanlan.zhihu.com/p/421908250)）。
 		* 不过缺少描述的局限性依然存在。标题的概括毕竟简短，所能提供的信息通常不如一句完整的话丰富。此外，标题所使用的概括只考虑笔记本身，而无法直接而具体地表明这条笔记在当前主题下的位置，以及与主题下其他笔记的关系。
 		* 另一个小区别是，其中提到不同笔记时采用了不同的缩进，以此体现不同笔记所记内容的从属关系。尽管本文没有提供相应的例子，这样的做法仍有其参考价值。
-	*  如果后来发现类型 A 的内容足够丰富，用一个单独的 MOC 管理更为方便，这时可将上面的这个 MOC“分裂”，最后变成下面的样子：
+	*  如果后来发现类型 A 的内容足够丰富，用一个单独的 MOC 管理更为方便，这时可将上面的这个 MOC「分裂」，最后变成下面的样子：
 		```markdown
 		- [[某主题-类型A]]
 		- 类型 B
@@ -110,7 +110,7 @@ categories: jekyll update
 			| 类型 B | [\[记录2]]            | [\[记录3]]            |
 			| 类型 C |                       | [\[记录5]]            |
 	* 实际使用中不是所有信息都能在表格当中展现。比如，或许 [\[记录4]] 有类型 A 的因素，但又有其独特的地方，与其他类型 A 对应的记录并不那么相似，这从表格中没法一下子看出来。
-	*  此时可以考虑为表格添加“备注”栏，用于存放这些值得特别说明的东西。不过在备注信息较长时，表格的排版可能不尽如人意。若设置为点击或者鼠标悬停时才能查看，则又达不到一览无余的效果。
+	*  此时可以考虑为表格添加「备注」栏，用于存放这些值得特别说明的东西。不过在备注信息较长时，表格的排版可能不尽如人意。若设置为点击或者鼠标悬停时才能查看，则又达不到一览无余的效果。
 		<!-- 这时，下一点中所给出的呈现方式或许能作为表格形式的一种替代方案。 -->
 	* 另外，如果觉得笔记软件自带的表格功能无法满足自己的需求，可以参考 deerain 所写的[《MOC - 管理链接而非本体》外部表格 MOC 部分](https://www.yuque.com/deerain/gannbs/hb0gsd#b4e2c2fa)，配合外部表格软件（比如 Excel）来进行管理。
 * <input type="checkbox" name="fchk" id="fold109"><label for="fold109">表格能够直接呈现的信息比较有限。若希望补充一些额外的文字解读，可以考虑将表格改写为多层嵌套列表的形式，依据 分类维度、具体类型、笔记链接 分别展开各层内容。</label>
@@ -135,7 +135,7 @@ categories: jekyll update
 	* 当然，一个 MOC 里同时提供表格和多层列表这两种呈现方式也是可以的。不过这样做可能导致维护成本增加，新建一个笔记后要在 MOC 里添加它的记录，需要同时修改表格和多层列表。
 	（如果笔记软件能根据多层列表或类似的结构自动生成表格视图，则不一定会带来这方面的成本。）
 * <input type="checkbox" name="fchk" id="fold130"><label for="fold130">根据相应主题的特点，也可以采用 维度、笔记链接、具体类型，或者 笔记链接、维度、具体类型 这样的展开顺序。</label>
-	* 如果有部分维度下的可能类型太多，几乎每条笔记的内容都可看作单独的一类，且这些类型有时需要较多的文字来描述，那么这样的维度已经不是用来“分类”，而是用来作“比较”了。调换后的顺序在这种情形下较为方便。
+	* 如果有部分维度下的可能类型太多，几乎每条笔记的内容都可看作单独的一类，且这些类型有时需要较多的文字来描述，那么这样的维度已经不是用来「分类」，而是用来作「比较」了。调换后的顺序在这种情形下较为方便。
 	*  维度、笔记链接、具体类型 的简单示例：
 		```markdown
 		- 比较维度 I（可以对该维度进行一些简要说明）
@@ -147,7 +147,7 @@ categories: jekyll update
 			- [[记录3]]：相较 [[记录1]] 没有xx，而是xx
 			- [[记录2]]：具体描述…
 		```
-	* 如之前所说，在排列各笔记的顺序时，相关性较高的记录可以安排在相邻的位置。不同维度下的“相关性”标准不同，因此笔记的排序也需要相应地调整。
+	* 如之前所说，在排列各笔记的顺序时，相关性较高的记录可以安排在相邻的位置。不同维度下的「相关性」标准不同，因此笔记的排序也需要相应地调整。
 	* <input type="checkbox" name="fchk" id="fold144"><label for="fold144">若同时还有一些用于分类的维度，这些维度可以沿用前面所说的 分类维度、具体类型、笔记链接 的展开顺序，而不再与其他维度保持一致。</label>
 		*  例如，若维度 III 的可能性只有 A，B 两种，可以在上面示例的最后追加这几行：
 			```markdown

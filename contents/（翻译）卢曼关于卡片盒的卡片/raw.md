@@ -31,7 +31,7 @@
 	> 中译者注：翻译后一句时还参考了 Johannes F.K. Schmidt 所写文章 Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine 中给出的英文翻译：
 	>
 	> The references must not capture collective concepts that aggregate key aspects but must selectively lead away from the material subsumed under them. 
-* （9/8b2）对于复杂（以复杂的方式评估）信息的存储来说，“多重存储”是必要的。
+* （9/8b2）对于复杂（以复杂的方式评估）信息的存储来说，「多重存储」是必要的。
 	> (9/8b2) “Multiple storage” als Notwendigkeit der Speicherung von komplexen (komplex auszuwertenden) Informationen.
 	> 
 	> “Multiple storage” as the necessity of storing complex (to be evaluated in a complex way) information.
@@ -55,7 +55,7 @@
 	> (9/8g) Hinter der Zettelkastentechnik steht die Erfahrung: Ohne zu schreiben kann man nicht denken – jedenfalls nicht in anspruchsvollen, selektiven Zugriff aufs Gedächtnis voraussehenden Zusammenhängen. Das heißt auch: ohne Differenzen einzukerben, kann man nicht denken.
 	> 
 	> The Zettelkasten Method is based on this experience: One cannot think without writing - at least not in demanding contexts that anticipate selective access to memory. This also means: without notching differences one cannot think.
-* （9/8h）关于皇家学会 Sprat 1667 第 115f 页的知识登记的注记。放弃草率的系统化和封闭，对未来开放：“这种对后果和秩序的忽视，不应该仅仅被认为是出于他们的粗心大意；而是出于成熟和有充分理由的策划。”
+* （9/8h）关于皇家学会 Sprat 1667 第 115f 页的知识登记的注记。放弃草率的系统化和封闭，对未来开放：「这种对后果和秩序的忽视，不应该仅仅被认为是出于他们的粗心大意；而是出于成熟和有充分理由的策划。」
 	> (9/8h) Bemerkungen über Registrierung des Wissens in der Royal Society bei Sprat 1667, S. 115f. Verzicht auf vorschnelle Systematisierung und Abschliessung, Zukunftsoffenheit: “Nor ought this neglect of consequence and order, to be only thought to proceed from their carelessness; but from mature and well grounded premeditation.”
 	> 
 	> Comments on registration of knowledge in the Royal Society in Sprat 1667, p. 115f. Abandonment of hasty systematization and closure, openness to the future: “Nor ought this neglect of consequence and order, to be only thought to proceed from their carelessness; but from mature and well grounded premeditation.”
