@@ -16,7 +16,8 @@ layout: home
 * [（翻译）卢曼关于卡片盒的卡片](contents/（翻译）卢曼关于卡片盒的卡片/)：卢曼的第二代卡片盒中编号以 `9/8` 开头的 18 张卡片是他自己关于卡片盒笔记法的评价。若要了解卢曼所实际使用的方法，这可以作为（不多见的）第一手材料。
 
 ## License
-![CC BY-SA 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+<!-- ![CC BY-SA 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png) -->
+<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" width = 25% />
 
 * 本博客下的文章以 [知识共享-署名-相同方式共享 4.0 国际（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)许可协议发布（有特别说明的除外）。
 * 博客作者自知能力有限，在文章的概念准确性、逻辑连贯性等方面难免有不完善之处。若读者发现了这类不足，或者是有值得讨论的问题、对文章内容有意义的补充，都欢迎在留言中提出。

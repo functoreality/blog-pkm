@@ -1,8 +1,9 @@
-## 写在前面
+## 关于「MOC」
 * MOC（Map of Contents）的常用中文翻译是「内容地图」。这个概念在有关双链笔记系统的讨论（尤其是 Obsidian 社区）中使用较多，这里也就沿用了这一称呼。
-	* 据我所知，MOC 一词最早由 Nick Milo 提出，并在他的 LYT Kit 中使用。
-		* LYT Kit 中的 LYT 指 Linking Your Thinking——连接你的想法。[英文原版](https://notes.linkingyourthinking.com/)，[中文翻译版](https://github.com/nickmilo/LYT-Kit-in-Mandarin)。
-		英文版中，《什么是高阶笔记》可以在[这里](https://notes.linkingyourthinking.com/Cards/What+are+higher-order+notes)看到。
+	* 据我所知，MOC 一词最早由 Lion Kimbro 提出，而使其变得广为人知的是 Nick Milo，他在自己的 LYT Kit 中使用了这一概念。
+		* 注 1：见 Kimbro 的书 Kimbro, Lion. (2003). How to Make a Complete Map of Every Thought You Think[J]. 
+		* 注 2：LYT Kit 中的 LYT 指 Linking Your Thinking——连接你的想法。[英文原版](https://notes.linkingyourthinking.com/)，[中文翻译版](https://github.com/nickmilo/LYT-Kit-in-Mandarin)。
+		其中《什么是高阶笔记》的英文版可以在 [这里](https://notes.linkingyourthinking.com/Cards/What+are+higher-order+notes) 看到。
 	* LYT Kit 中有一篇文章叫《什么是高阶笔记》，其中提出以链接为主要内容的笔记可以被认为是高阶笔记，它比以文字为主体的普通笔记复杂。高阶笔记至少可以包括这些类型的笔记：
 		> - **链接笔记** - 带有大量链接的笔记。
 		> - **枢纽笔记** - 用来导航的笔记，像是一个航空枢纽港（卢曼所使用的术语）。
@@ -33,8 +34,8 @@
 		* 建立新的笔记时，若它属于这个 MOC，就会在这里增添一条新的链接。
 		* 当 MOC 中内容的增长到一定程度时，其最合适的组织形式也可能发生改变，这时往往需要对 MOC 的结构进行一次大的修改。这篇文章正文部分所给出的不同组织方式，就是大致按照内容增长后 MOC 的演变过程排列的。
 
-## 正文
-* 最简单的 MOC 以索引的方式呈现，像一个文件夹，只是文件夹存放的是笔记的实体，而 MOC 中存放的是指向笔记的链接。
+## MOC 的各种组织方式
+* 最简单的 MOC 以索引的方式呈现，像一个文件夹，只不过文件夹存放的是笔记的实体，而 MOC 中存放的是指向笔记的链接。
 	*  例子：某主题的相关笔记列表
 		```markdown
 		- [[记录1]]
@@ -193,7 +194,6 @@
 			> 在 draw.io 等专业工具中绘制笔记的关系图，为笔记节点添加相应的笔记链接。这样在导出 svg 图片后，点击笔记节点，就可以跳转到笔记软件中的相应笔记。
 			<!-- * 据我推测，yuchen_lea 使用的软件是 Emacs org-mode，它的功能极其强大，但相应的高昂学习成本令许多人望而却步。对大多数人而言，这样的投入也确实没有必要。 -->
 			<!-- * 若之前熟悉的工具不支持在图片中加入跳转链接，则需要寻找可用的新工具，后续的安装、测试、学习也会消耗一部分时间精力。 -->
-		* yuchen_lea 的[《请不要神化双链笔记》](https://sspai.com/post/65273)
 		* （如果有读者还了解其他可实现该功能的工具，可以在评论区提出，这样可以为其他读者提供参考。）
 	* 若没有合适的软件，或者觉得带跳转功能图片的制作成本偏高，可以考虑对图形中各元素编号，并额外建立一个文字版本 MOC，给出各个编号的对应链接。
 		* 对于用这种方式呈现的 MOC，其文字部分相当于图形部分的注释。查看图片时，若想跳转到特定图形元素的对应笔记，则可根据图形中所标的编号，在文字部分找到相应的链接，点击即可跳转。
