@@ -1,7 +1,7 @@
 ---
 layout: folded_post
 title: "MOC的组织"
-date: 2023-02-05 +0800
+date: 2023-02-11 +0800
 categories: jekyll update
 ---
 
@@ -42,7 +42,7 @@ categories: jekyll update
 		* 当 MOC 中内容的增长到一定程度时，其最合适的组织形式也可能发生改变，这时往往需要对 MOC 的结构进行一次大的修改。这篇文章正文部分所给出的不同组织方式，就是大致按照内容增长后 MOC 的演变过程排列的。
 
 ## MOC 的各种组织方式
-* <input type="checkbox" name="fchk" id="fold38"><label for="fold38">最简单的 MOC 以索引的方式呈现，像一个文件夹，只不过文件夹存放的是笔记的实体，而 MOC 中存放的是指向笔记的链接。</label>
+* <input type="checkbox" name="fchk" id="fold38"><label for="fold38">最简单的 MOC 以内容列表的方式呈现，像一个文件夹，只不过文件夹存放的是笔记的实体，而 MOC 中存放的是指向笔记的链接。</label>
 	*  例子：某主题的相关笔记列表
 		```markdown
 		- [[记录1]]
