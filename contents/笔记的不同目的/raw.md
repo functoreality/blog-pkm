@@ -41,7 +41,7 @@
 * 四、知识与信息（狭义）的管理，使我们不需要用大脑记住这些内容，而能在需要用到的时候将相关内容高效地提取出来。
 	* 首先需要澄清这里「知识」、「信息」的含义。姑且采用理查德·保罗《批判性思维工具》中的方案，将命题划分为单体系的事实、无体系的偏好、多体系的判断三类，这里仅仅讨论其中第一类的内容。
 		* 对于单体系问题，我们只需要在一个体系内搜集证据、进行推理，据此得出唯一的正确答案，这一答案可以称之为「知识」。
-			* 例如：某金属的熔点与沸点，人造物（如电脑硬盘）的工作原理，编程语言的语法特性，软件的配置方式，等等。
+			* 例如：某金属的熔点与沸点，人造物（如电脑硬盘）的工作原理，编程语言的语法特性，软件的配置方式，数学定理，等等。
 			* 使用学界有共识的科学结论作出的推论也可以称为「知识」，例如「太阳将在几十亿年之后变成红巨星」。
 		* 无体系问题要求我们做出主观判断和选择，随着个体的不同偏好而有不同的答案，其结果不能进行评判。
 			* 关于豆腐脑、粽子等的甜咸争论就属于这个范围。
@@ -55,6 +55,67 @@
 	* 这一类的知识、信息所归属的主题往往在记录时已可预先确定。这允许我们利用结合了反链功能的每日笔记（daily notes）工作流，将临时产生的信息先暂时存放在每日笔记中，以降低内容记录的成本。
 		* [[笔记间关联方式]] 讨论反向链接时已对此进行了初步的介绍；更多内容可见 deerain 所写的 [《双向链接时代的快速无压记录》](https://www.yuque.com/deerain/gannbs/ffqk2e) 一文。
 	* 结合人工智能领域的「知识图谱」理论，Ryooo 提出了 [KG笔记法](https://zhuanlan.zhihu.com/p/440115356)，其中区分了讨论概念、实体、关系的三类笔记，并给出了相应的处理方式、记录步骤等。
-* 五、
+* 五、想法（或者思考结果）的记录、整理。Ahrens《卡片笔记写作法》一书中介绍的方法大致属于这类。
+	* 在这一目的下，笔记系统与自己的大脑有明确的分工。笔记负责保存想法细节、参考资料等，而大脑负责更深层次的理解，进行新内容的创造。
+		*  Ahrens 在书中给出了这样的描述：
+			> 大脑和卡片盒有明确的分工：卡片盒负责处理细节和参考资料，存储的是一种长期的记忆资源，它能保持信息的客观性不被改变。
+			> 这使得大脑可以专注于要点、更深层次的理解和学科大图景，并更具有创造力。大脑和卡片盒可以分别专注于自己最擅长的事情。
+	* Kimbro 所描述的笔记也服务于类似的目的。对他而言，减少重复思考、避免进度丢失、研究他所关注的问题（心灵）是记笔记的三大最主要目的，而笔记的储存、提取等功能也在考虑范围之内。
+		*  Kimbro, Lion. (2003). How to Make a Complete Map of Every Thought You Think[J]. 
+			> Major reasons:
+			> * Reduce Repeated Thinking 
+			> * Prevent Lost Porgress 
+			> * Observe Mind
+			> 
+			> Minor reasons: 
+			> * Storage and Retrieval 
+			> * Living Strategicly
+	* 这一目的为永久笔记的内容质量提出了一定的要求。我们应只在笔记系统中放入认真处理过的笔记，以避免过多的低价值笔记所可能带来的混乱。
+		* Ahrens 认为，笔记内容的质量是「永久笔记」（permanent notes）区别于「闪念笔记」（fleeting notes）的关键方面。「与闪念笔记不同，卡片盒里的每一张永久笔记都经过了足够精心的设计，为成为最终书面作品的一部分或激发灵感打下基础。」
+		* 而如果将所有的笔记都划分为「永久笔记」，将「导致优秀的笔记被其他或许只与特定项目有关、或许实际上不那么好的笔记淹没了，因此永远也无法实现群聚效应」。
+	* 由于未经过充分处理的笔记不应该轻易引入，收件箱（inbox）维护的需求也应运而生，它将负责闪念笔记向永久笔记转化的过程。
+		* Ahrens 在书中说：「大多数想法都经不起时间的考验，而有的想法则可能成为一个重大项目的种子。遗憾的是，它们并不容易马上被区分开来。这就是为什么把一个想法写下来的门槛必须尽可能低，但在一两天内对它们进行阐述同样至关重要。」
+	* 在永久笔记本身内容已经比较完善的前提下，我们可以为这样的笔记起合适的标题，使其能精确地概括这条笔记的内容。
+		* Andy Matuschak 的常青笔记中就有几条在讨论类似的事情。例如《笔记标题建议使用完整的句子，避免模糊主张》（[中文翻译](https://zhuanlan.zhihu.com/p/422262632)，[英文原文](https://notes.andymatuschak.org/z3KmNj3oKKSTJfqdfSEBzTQiCVGoC4GfK3rYW)），以及《常青笔记的标题就像 API》（[中文翻译](https://zhuanlan.zhihu.com/p/421908250)，[英文原文](https://notes.andymatuschak.org/z3XP5GRmd9z1D2qCE7pxUvbeSVeQuMiqz9x1C)）。
+	* 通过永久笔记积攒了一定数量的想法以后，这些笔记上所写的内容将能够进行组合，最终形成我们所写出的文章。
+		* Ahrens 在书中说，记录了一段时间的笔记后，「会积攒到足够多的想法去确定一个写作主题」。
+		* 在这种情况下，「把卡片盒里的笔记变成最终文本的步骤非常简单」，因为「卡片盒里存放的已经是有意义且经过深思熟虑的内容，并且很多部分已经很好地排了序」，这使得「你能清楚地看到哪些长串的论证已经成型，这是一个很好的切入点」。
+		* 而为了产生最终的文章，只需要「将这些笔记按顺序组织起来」，据此完成初稿，并进行最终的修订就可以了。
+* 六、将笔记作为思考工具本身。（历史上真实的）卢曼二代卡片盒大致属于这类。
+	* 「思考工具」这个说法来自 Schmidt。
+		* Schmidt, Johannes. (2016). Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine. 10.1163/9789004325258_014. 
+	* 需要指出的是，由于写这件事本身有帮助思考的功效，仅将笔记系统用于记录想法、思考结果的做法也确实在一定程度上成为了思考的辅助工具；不过大概也仅限于此了。
+		* 卢曼在《与卡片盒交流》一文（[中文翻译](https://mp.weixin.qq.com/s/_aPS2ol1DxiCFX-xfl-8yg)，[英文翻译](https://luhmann.surge.sh/communicating-with-slip-boxes)）中写道：「不写作就不可能思考，至少不能用一种复杂的、网络化的方式思考。」
+		* Ahrens 的书中还提到了费曼的例子。一位历史学家想采访费曼，他看到费曼的笔记本时，对这一「费曼思维过程的精彩记录」感到十分兴奋。而费曼立刻对此进行了反驳：「这些不是我思维过程的记录，它们就是我的思维过程，实际上我的思维活动都是在纸上进行的。」
+	* 将笔记作为思考工具时，不应期待其中的内容具有很高的完善性。在学术前沿的复杂理论创新往往需要进行高强度的试错，此时这种不完善的情况将变得更为明显。
+		* 按照 Schmidt 的说法，卢曼的卡片盒「不仅包含经过验证的知识，还反映了思考过程，包括潜在的错误和死胡同」，它「记录了卢曼思想中重要理论结构的演变」。
+			*  Schmidt, Johannes. (2016). Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine. 10.1163/9789004325258_014. 
+				> Accordingly, the file also documents the evolution of important theoretical constructs in Luhmann’s thinking: for instance, the concepts of communication media, evolution, or observation. 
+				> It contains not only validated knowledge but also reflects the thought process, including potential mistakes and blind alleys that were later revised but not removed from the file as the original cards always remained in Luhmann’s file and perhaps a new card with revisions was added if needed. 
+		* 卢曼在《与卡片盒交流》中提到，「许多笔记将很快变得无法使用，或在特定场合下无法使用。这既适用于摘抄（通常只有在特别简洁的表述才有价值），也适用于我们自己的笔记。」
+		* 事实上，卢曼的许多卡片只记录了一个问题，而不包括关于如何回答这一问题的任何可能的想法。编号为 `9/8c`、`9/8,1`、`9/8,2`、`9/8,3` 的卡片就是这样的例子。
+		* 读者也可以查看 [[（翻译）卢曼关于卡片盒的卡片]]，并自行判断这些真实卡片的内容完善程度到底如何。
+	* 而事实上，笔记中的内容也确实没必要做得很完善。一方面，对完善性的追求将导致不必要的时间精力耗费；另一方面，一个组织良好的笔记系统完全有能力处理这些并不完善的内容。
+		* 卢曼编号为 `9/8a2` 的卡片将这一要求表述得十分直白：「作为化粪池的卡片盒——不要只放入处理过的笔记。将检验与决策延后——这也是速度的问题。」
+		* 而在编号 `9/8i` 的卡片中，卢曼强调了卡片盒「具有反刍动物的复杂消化系统」，这使得「所有随意的想法，所有阅读中的巧合，都可以放入」，而笔记间的链接「将发挥决定性的作用」。
+			* 具体内容可在 [[（翻译）卢曼关于卡片盒的卡片]] 查看。
+		* Schmidt 对此评论道，在添加永久笔记时，卢曼「主要关注的不是如何将一个想法发展到极致」；相反，「他是基于这样一个假设来操作的，即只有在与其他笔记相关的情况下才能对笔记的有用性做出决定，因此（在许多情况下）这将是一个未来要决定的问题。」
+			*  Schmidt, Johannes. (2016). Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine. 10.1163/9789004325258_014. 
+				> In a second step soon after he had completed his reading, he would prepare the notes that he had taken by organizing them according to his filing technique (see below). 
+				> At this point, his main concern was not to develop an idea to maximum sophistication; rather, he operated on the assumption that a decision on the usefulness of a note could only be made in relating it to the other notes – and therefore would (in many cases) be a matter to be decided in the future. 
+		* 在《与卡片盒交流》中，卢曼强调「每一张卡片都只是一个组成部分，它的质量只取决于系统内的链接和反向链接的网络」。如果有人指望某张卡片仅凭其上所写的（完善的）内容就能保证其自身的品质的话，那这种天真的想法还是趁早放弃为妙。 
+		* 需要注意这种处理能力形成的一个关键前提：本身并不完善的笔记也必须能够充分地融入整个笔记系统的链接网络。
+			* 在电子笔记中，许多人将笔记的标题作为其唯一标识符（UID），用于建立指向这条笔记的链接。
+			* 这种策略对于这里所讨论的不完善笔记往往不再可用，因为在笔记的内容本身就不够完善的前提下，为它起一个合适的标题将是比较困难、也没有必要的。
+	* 不同于想法记录目的中的「分工」说，卢曼在《与卡片盒交流》中着重强调了卡片盒的「交流」功能。从这个角度来看，一个十分关键的问题是如何设计卡片盒，使其获得和人一样的「交流」能力。
+		* 卢曼就此强调，「如果你想培养一个交流伙伴，最好从一开始就让他独立。」
+		* 当然，要使笔记系统具备这样的「交流」能力也并非一件容易的事情。卢曼指出，「卡片盒需要数年时间才能达到临界水平。在此之前，它仅仅是一个容器，我们可以从中获取所放入的内容。」也就是说，早期卡片盒所起到的功能和原先「分工」说法中的别无二致。
+	* 这种「交流」的功能也起到了「惊喜生成器」的效果，成为了卢曼创造力的重要来源。
+		* Schmidt 引用了卢曼的话：「如果没有这些卡片，只是通过思考，我永远不会想到这些想法。当然，我的头脑需要记下这些想法，但它们不能单独归因于它。」
+			*  Schmidt, Johannes. (2016). Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine. 10.1163/9789004325258_014. 
+				> “Without those cards, just by contemplating, these ideas would have never occurred to me. 
+				> Of course, my mind is needed to note down the ideas, but they cannot be attributed to it alone”, said Luhmann.16 The file is thus a surprise generator. B
+		* 在《与卡片盒交流》中，卢曼表示「卡片盒提供了从未计划过的，从未预想过的信息组合的可能性」。当他在卡片盒中查找特定内容的时候，「可以获得比大脑当时所能想到的更多的信息」，这些信息甚至「比以往以笔记形式存储的信息更多」。
+		* 这样的「交流」与惊喜生成功能也是卢曼卡片盒难以理解的地方之一。nggalai 在 Reddit 论坛上提供了一个自己进行「交流」的成功例子（[英文原文](https://www.reddit.com/r/Zettelkasten/comments/pddw8y/i_finally_get_it_after_a_quarter_of_a_century_i/)，[中文翻译](https://zhuanlan.zhihu.com/p/502085870)），并感叹自己「发现、理解这种沟通用了 25 年」。
+	* 用作思考工具的笔记系统也能产出文章，但这一过程已经与用于想法记录时的产出十分不同了。利用他的卡片盒，卢曼成功地回答了前人所没能回答的问题，建立起了前人所没能建立起的理论。在这以后，他只不过是顺手写了一些文章，将这些前所未有的、全新的东西昭告世人罢了。
 
-（施工中）
