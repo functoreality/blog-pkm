@@ -42,6 +42,7 @@ minima:
 header_pages: 
   # - raw.md
   - index.md
+  # - contents/MOC的组织/index.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
