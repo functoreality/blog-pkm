@@ -5,69 +5,72 @@ date: 2023-02-12 +0800
 categories: jekyll update
 ---
 
+## 关于笔记的「目的」
 * 先简单解释一下写这篇文章的目的。根据我的观察，在讨论「笔记」这个概念时，不同人需求的差异性往往被低估，并且是被严重低估。事实上，一个人最为关心的问题，对另一个人而言完全可能是无足轻重的方面。
 * 另一方面，「笔记」这个词的含义实在太过宽泛，面向完全不同的目的所进行的记录，都可以用「笔记」这个词来称呼。这又进一步导致了讨论与交流的低效，我们往往没能意识到不同人所说的「笔记」其实可能指的并不是同一个东西。
 * 具体的笔记方法是为特定的目的服务的，而各种软件、工具则又是使这种笔记方法得以实际运行的手段。因此，在对各式各样的笔记方法、工具进行更进一步的探讨之前，有必要先澄清笔记的目的。
-* <input type="checkbox" name="fchk" id="fold4"><label for="fold4">许多人（包括我自己）都十分佩服卢曼的学术成就，不过我会建议读者先确认自己当下的需求（也就是记笔记的目的）和卢曼的重合度有多大，而不是急着全盘照搬他所用的方法。</label>
+* <input type="checkbox" name="fchk" id="fold5"><label for="fold5">许多人（包括我自己）都十分佩服卢曼的学术成就，不过我会建议读者先确认自己当下的需求（也就是记笔记的目的）和卢曼的重合度有多大，而不是急着全盘照搬他所用的方法。</label>
 	* 这涉及到卢曼成就的归因问题。许多人认同卢曼的（二代）卡片盒是他取得如此巨大成就的重要原因，但这种方法的形成本身又可以归结到卢曼「根据自己的需要、找到最合适的方法」的能力。
 	* 因此，如果读者希望从卢曼的成功经验中获益，而又发现自己眼下所需要的并非像卢曼那样、直接启动在学术前沿领域的探索与创新的话，我会建议这样的读者学习卢曼形成适合自己的方法的能力，而不是他运用这种能力所产出的结果本身（也就是原始的二代卡片盒笔记法）。
 	* 当然，这里需要指出的是，Ahrens 在《卡片笔记写作法》中所描述的方法其实已经在相当程度上偏离了卢曼所真正使用的方法（后文会有部分解释），而或许更适合看作他面向学习、思考结果记录与文章输出的目的，进行调整以后的结果。尽管他自己并未明确声明这点（我怀疑他自己也没有意识到），书中所提供的方法建议仍对有着类似需求的读者有一定的参考价值。
+
+## 常见的笔记目的
 * 我将常见的笔记管理的目的大致分出了如下几类。当然，实际笔记系统所面向的目的往往也还涉及几个类别的组合。
 * 一、记录目的，包括课堂笔记、会议记录等。所谓的康奈尔笔记法大致属于这类，这里不再赘述。
-* <input type="checkbox" name="fchk" id="fold10"><label for="fold10">二、阅读理论性的材料时，运用笔记来帮助理解。文献笔记和永久笔记的制作均能服务于这一目的。</label>
-	* <input type="checkbox" name="fchk" id="fold11"><label for="fold11">关于文献笔记的制作，卢曼在《学习如何阅读》中强调了「对所阅读的文本进行浓缩重写」对于提高阅读能力的重要性，这能够训练我们注意到没有在文本中明确写出的内容。</label>
+* <input type="checkbox" name="fchk" id="fold13"><label for="fold13">二、阅读理论性的材料时，运用笔记来帮助理解。文献笔记和永久笔记的制作均能服务于这一目的。</label>
+	* <input type="checkbox" name="fchk" id="fold14"><label for="fold14">关于文献笔记的制作，卢曼在《学习如何阅读》中强调了「对所阅读的文本进行浓缩重写」对于提高阅读能力的重要性，这能够训练我们注意到没有在文本中明确写出的内容。</label>
 		* 按照卢曼的说法，这些未写出的内容包括了「文本的框架、模式和类别」，或者是「文本的条件或假设」。在注意到这些内容之后，笔记的表述将「变得与之前不同」。
 		*  以在阅读中出现的「人权」概念的理解为例，卢曼给出了这样的解释：
 			> 有效的办法是在阅读过程中时刻谨记以下问题：当文章中提出某个主张时，作者想要说明的是什么，想要排除的又是什么？比如有人提到了「人权」，他要对比的是什么？是「没有人权」？还是「义务」？
 			> 是一种文化的对比？还是与历史上的那些没有人权概念却依然能和平相处的人们对比？对于这个问题，往往难以从文本中找到直接或明确的答案，只能依靠读者自己的理解。
-		* 注：以上翻译版本来自 Ahrens《卡片笔记写作法》。另外《学习如何阅读》这篇文章还有完整的 [中文翻译](https://mp.weixin.qq.com/s/CC6I87Yt3zKjQ-SIGr0sAg)、[英文翻译](https://luhmann.surge.sh/learning-how-to-read)。
-	* <input type="checkbox" name="fchk" id="fold17"><label for="fold17">费曼在 [《科学是什么》](https://zhuanlan.zhihu.com/p/87560832) 这篇演讲中也提到了一种重新表述的做法，用来确认自己是否领会了新学概念中所蕴含的科学思想，而不是仅仅只学到了一个新的词汇。</label>
+		* 注：以上翻译版本来自 Ahrens《卡片笔记写作法》。另外《学习如何阅读》这篇文章还有相应的 [中文翻译](https://mp.weixin.qq.com/s/CC6I87Yt3zKjQ-SIGr0sAg)、[英文翻译](https://luhmann.surge.sh/learning-how-to-read)。
+	* <input type="checkbox" name="fchk" id="fold20"><label for="fold20">费曼在 [《科学是什么》](https://zhuanlan.zhihu.com/p/87560832) 这篇演讲中也提到了一种重新表述的做法，用来确认自己是否领会了新学概念中所蕴含的科学思想，而不是仅仅只学到了一个新的词汇。</label>
 		* 具体地，这一做法表述为：「不要用你刚学到的新词，用你自己的语言复述一下你刚学到的内容。」
 		* 费曼还考虑到了所用学习材料并不完美的问题。在演讲的前面部分，费曼对小学科学课本中「玩具狗之所以能运动是因为能量」这一教学方式表达了不满，认为这只是在教一个概念，而并没有传授其中的思想。
 		* 费曼随后提到了他循循善诱的父亲，并设想了父亲可能会如何为孩提时期的费曼解释这个概念（仍用玩具狗的例子），其中确实没有直接出现「能量」这个词。
-		* <input type="checkbox" name="fchk" id="fold21"><label for="fold21">在我看来，费曼的这一评判也对我们阅读材料的选择问题有所启发。事实上，从我自己的经验来看，有的文章与材料看起来是提出了一些新的概念，但它其实不过是创造了一种新的话术，其中并不包含多少实质性的新思想，不能帮助我们加深对特定问题的理解。</label>
+		* <input type="checkbox" name="fchk" id="fold24"><label for="fold24">在我看来，费曼的这一评判也对我们阅读材料的选择问题有所启发。事实上，从我自己的经验来看，有的文章与材料看起来是提出了一些新的概念，但它其实不过是创造了一种新的话术，其中并不包含多少实质性的新思想，不能帮助我们加深对特定问题的理解。</label>
 			* 如果我们怀疑作者自己都没法进行这种「不用新词」式的重新表述，那明智的做法大概是不要在这样的材料上浪费我们宝贵的时间。
-		* <input type="checkbox" name="fchk" id="fold23"><label for="fold23">还有一些材料是在试图向我们解释已有的一些概念，这包括了教材、科普文章等。这些已有的概念本身有其重要意义，但这样的意义可能并未在材料中传达出来。</label>
+		* <input type="checkbox" name="fchk" id="fold26"><label for="fold26">还有一些材料是在试图向我们解释已有的一些概念，这包括了教材、科普文章等。这些已有的概念本身有其重要意义，但这样的意义可能并未在材料中传达出来。</label>
 			* 如果我们发现手中的材料没有解释清楚，而条件又允许的话，可以考虑换一份更有价值的材料。
 			<!-- * 如果找不到更有价值的材料，则我们可能需要主动思考，透过材料中的文字解读出真正有价值的内容 -->
-	* <input type="checkbox" name="fchk" id="fold26"><label for="fold26">Ahrens《卡片笔记写作法》中还提到，「详细阐释」法（或者说「为学而写」）是「研究得最多、最成功的学习方法」，而卡片盒中永久笔记的制作过程可以认为是在进行这样的「详细阐释」。</label>
+	* <input type="checkbox" name="fchk" id="fold29"><label for="fold29">Ahrens《卡片笔记写作法》中还提到，「详细阐释」法（或者说「为学而写」）是「研究得最多、最成功的学习方法」，而卡片盒中永久笔记的制作过程可以认为是在进行这样的「详细阐释」。</label>
 		* Ahrens 在书中说：「详细阐释意味着要真正思考所读内容的意义，思考它如何为不同的问题和主题提供信息，以及如何将其与其他知识相结合」，它「对于深入理解有很好的验证作用」。
 		*  在 Ahrens 所描述的卡片盒笔记法中，文献笔记是对阅读材料中内容的提炼，其最终目的是转化为永久笔记，而转化为永久笔记的过程将要求我们进行这样的思考。这可以从书中对这一转化过程的描述里看出：
 			> 这种笔记上的思想不是为了收集，而是为了衍生想法、论点和讨论。
 			> 新的信息是否与你卡片盒里或脑海里已有的信息相互矛盾、相互一致、相互印证或相互补充？是否能把已有的想法结合起来产生新的想法？这些想法又引发了什么问题？
-	* 理工类教科书有较强的前后依赖关系，对后面内容的理解往往还依赖于对前面内容的记忆。考虑到这一点，叶峻峣在 [这篇文章](https://www.kancloud.cn/ankigaokao/incremental_learning/2450557#_220) 中推崇了 SuperMemo 软件所支持的「渐进学习」，它可以同时管理学习与复习的进度，确保在前面的内容都进入长期记忆之后才开始下一步的学习。
-* <input type="checkbox" name="fchk" id="fold32"><label for="fold32">三、辅助记忆。间隔重复记忆软件能够在其中发挥作用；除此以外，为卡片盒中不同笔记建立关联的过程也能提高记忆的「提取强度」。</label>
-	* <input type="checkbox" name="fchk" id="fold33"><label for="fold33">Anki、SuperMemo 这类主打「间隔重复」功能的软件便针对记忆的需求而设计，它们要求用户整理出「抽认卡片」形式的笔记，并利用特定的算法管理大量笔记的复习进度。</label>
+	* 理工类教科书有较强的前后依赖关系，对后面内容的理解往往还依赖于对前面内容的记忆。考虑到这一点，叶峻峣在 [这篇文章](https://www.kancloud.cn/ankigaokao/incremental_learning/2450557#_220) 中推荐了 SuperMemo 软件所支持的「渐进学习」，它可以同时管理学习与复习的进度，确保在前面的内容都进入长期记忆之后才开始下一步的学习。
+* <input type="checkbox" name="fchk" id="fold35"><label for="fold35">三、辅助记忆。间隔重复记忆软件能够在其中发挥作用；除此以外，为卡片盒中不同笔记建立关联的过程也能提高记忆的「提取强度」。</label>
+	* <input type="checkbox" name="fchk" id="fold36"><label for="fold36">Anki、SuperMemo 这类主打「间隔重复」功能的软件便针对记忆的需求而设计，它们要求用户整理出「抽认卡片」形式的笔记，并利用特定的算法管理大量笔记的复习进度。</label>
 		* 许多双链笔记软件（或其插件）也加入了类似的功能，例如 Roam Research，Logseq 和 RemNote 等。
 		* 我自己并不是这方面的专家。如果读者希望了解更多的相关信息，可以在知乎上关注 [叶峻峣](https://www.zhihu.com/people/L.M.Sherlock)。
 	* 需要强调的是，对特定内容的记忆必须在已经理解其中内容的前提下进行。SuperMemo 网站的《不要在没有理解之前就去记忆》一文对此进行了详细的解释（[中文翻译](https://zhuanlan.zhihu.com/p/281085595)，[英文原文](https://supermemo.guru/wiki/Do_not_memorize_before_you_understand)）。
-	* <input type="checkbox" name="fchk" id="fold37"><label for="fold37">Ahrens《卡片笔记写作法》一书中还区分了记忆的「存储强度」与「提取强度」，而卡片盒笔记法能帮助我们提高其中更重要的「提取强度」。</label>
+	* <input type="checkbox" name="fchk" id="fold40"><label for="fold40">Ahrens《卡片笔记写作法》一书中还区分了记忆的「存储强度」与「提取强度」，而卡片盒笔记法能帮助我们提高其中更重要的「提取强度」。</label>
 		* 书中认为，当下许多学生的学习依靠的是「死记硬背」，他们试图记住孤立的事实、提高「存储强度」，最终收效甚微。
 		* 而如果考虑「提取强度」，则重要的事情是「什么样的线索能够触发我们对记忆的提取」。例如，「当我们不坐在教室里时，就很难想起课堂上学过的东西」。
 		* Ahrens 进一步认为有效的学习需要「将一条信息与尽可能多的有意义的上下文联系起来」，而我们为卡片盒中的笔记建立关联的过程能促进这样的学习，提高我们的「提取强度」。
-* <input type="checkbox" name="fchk" id="fold41"><label for="fold41">四、知识与信息（狭义）的管理，使我们不需要用大脑记住这些内容，而能在需要用到的时候将相关内容高效地提取出来。</label>
-	* <input type="checkbox" name="fchk" id="fold42"><label for="fold42">首先需要澄清这里「知识」、「信息」的含义。姑且采用理查德·保罗《批判性思维工具》中的方案，将命题划分为单体系的事实、无体系的偏好、多体系的判断三类，这里仅仅讨论其中第一类的内容。</label>
-		* <input type="checkbox" name="fchk" id="fold43"><label for="fold43">对于单体系问题，我们只需要在一个体系内搜集证据、进行推理，据此得出唯一的正确答案，这一答案可以称之为「知识」。</label>
+* <input type="checkbox" name="fchk" id="fold44"><label for="fold44">四、知识与信息（狭义）的管理，使我们不需要用大脑记住这些内容，而能在需要用到的时候将相关内容高效地提取出来。</label>
+	* <input type="checkbox" name="fchk" id="fold45"><label for="fold45">首先需要澄清这里「知识」、「信息」的含义。姑且采用理查德·保罗《批判性思维工具》中的方案，将命题划分为单体系的事实、无体系的偏好、多体系的判断三类，这里仅仅讨论其中第一类的内容。</label>
+		* <input type="checkbox" name="fchk" id="fold46"><label for="fold46">对于单体系问题，我们只需要在一个体系内搜集证据、进行推理，据此得出唯一的正确答案，这一答案可以称之为「知识」。</label>
 			* 例如：某金属的熔点与沸点，人造物（如电脑硬盘）的工作原理，编程语言的语法特性，软件的配置方式，数学定理，等等。
 			* 使用学界有共识的科学结论作出的推论也可以称为「知识」，例如「太阳将在几十亿年之后变成红巨星」。
-		* <input type="checkbox" name="fchk" id="fold46"><label for="fold46">无体系问题要求我们做出主观判断和选择，随着个体的不同偏好而有不同的答案，其结果不能进行评判。</label>
+		* <input type="checkbox" name="fchk" id="fold49"><label for="fold49">无体系问题要求我们做出主观判断和选择，随着个体的不同偏好而有不同的答案，其结果不能进行评判。</label>
 			* 关于豆腐脑、粽子等的甜咸争论就属于这个范围。
-		* <input type="checkbox" name="fchk" id="fold48"><label for="fold48">多体系问题则允许在多个体系中搜集证据、进行推理，得出多个可能的答案，这些答案依据论证的充分性等有优劣区分，它们应被视作「判断」。</label>
+		* <input type="checkbox" name="fchk" id="fold51"><label for="fold51">多体系问题则允许在多个体系中搜集证据、进行推理，得出多个可能的答案，这些答案依据论证的充分性等有优劣区分，它们应被视作「判断」。</label>
 			* 例如：堕胎在道德上的合理性，某政策措施是否能减少吸毒人群的数量，苏联解体的原因，等等。去年罗翔与车浩关于收买被拐妇女犯罪刑期设置问题的讨论也属于「判断」。
 			* 作者在书中强调，对于这一类的问题，我们「应该运用普遍的思维标准（如清晰度、深度、一致性等）来理性地评估问题的答案」。尽管我们可能将判断的结论称作「观点」，但我们不仅重视观点，也重视这一观点背后的可靠论证基础。
-		* <input type="checkbox" name="fchk" id="fold51"><label for="fold51">这种划分可能随着命题的表述而有所不同。例如，Ahrens 认为每张永久笔记都要经过「足够精心的设计」，这本身是一个判断，但「Ahrens 认为每张永久笔记都要经过足够精心的设计」则是一个事实。</label>
+		* <input type="checkbox" name="fchk" id="fold54"><label for="fold54">这种划分可能随着命题的表述而有所不同。例如，Ahrens 认为每张永久笔记都要经过「足够精心的设计」，这本身是一个判断，但「Ahrens 认为每张永久笔记都要经过足够精心的设计」则是一个事实。</label>
 			* 考虑到这一点，在某些情况下，文献调研与文献管理可以依据这里所讨论的「知识管理」来进行。
 		* 还需要注意，这里「信息」一词的含义与卢曼在《与卡片盒交流》一文（[中文翻译](https://mp.weixin.qq.com/s/_aPS2ol1DxiCFX-xfl-8yg)，[英文翻译](https://luhmann.surge.sh/communicating-with-slip-boxes)）中所用的不同，那里的「信息」在多数情况下其实属于这里的第三类，也就是所谓的「判断」。
 	* 计算机代码编写、软件配置等场合涉及的「cheatsheet」即可认为是面向这一目的的笔记。
-	* <input type="checkbox" name="fchk" id="fold55"><label for="fold55">这一类的知识、信息所归属的主题往往在记录时已可预先确定。这允许我们利用结合了反链功能的每日笔记（daily notes）工作流，将临时产生的信息先暂时存放在每日笔记中，以降低内容记录的成本。</label>
+	* <input type="checkbox" name="fchk" id="fold58"><label for="fold58">这一类的知识、信息所归属的主题往往在记录时已可预先确定。这允许我们利用结合了反链功能的每日笔记（daily notes）工作流，将临时产生的信息先暂时存放在每日笔记中，以降低内容记录的成本。</label>
 		* [笔记间关联方式](../笔记间关联方式/) 讨论反向链接时已对此进行了初步的介绍；更多内容可见 deerain 所写的 [《双向链接时代的快速无压记录》](https://www.yuque.com/deerain/gannbs/ffqk2e) 一文。
 	* 结合人工智能领域的「知识图谱」理论，Ryooo 提出了 [KG笔记法](https://zhuanlan.zhihu.com/p/440115356)，其中区分了讨论概念、实体、关系的三类笔记，并给出了相应的处理方式、记录步骤等。
-* <input type="checkbox" name="fchk" id="fold58"><label for="fold58">五、想法（或者思考结果）的记录、整理。Ahrens《卡片笔记写作法》一书中介绍的方法大致属于这类。</label>
-	* <input type="checkbox" name="fchk" id="fold59"><label for="fold59">在这一目的下，笔记系统与自己的大脑有明确的分工。笔记负责保存想法细节、参考资料等，而大脑负责更深层次的理解，进行新内容的创造。</label>
+* <input type="checkbox" name="fchk" id="fold61"><label for="fold61">五、想法（或者思考结果）的记录、整理。Ahrens《卡片笔记写作法》一书中介绍的方法大致属于这类。</label>
+	* <input type="checkbox" name="fchk" id="fold62"><label for="fold62">在这一目的下，笔记系统与自己的大脑有明确的分工。笔记负责保存想法细节、参考资料等，而大脑负责更深层次的理解，进行新内容的创造。</label>
 		*  Ahrens 在书中给出了这样的描述：
 			> 大脑和卡片盒有明确的分工：卡片盒负责处理细节和参考资料，存储的是一种长期的记忆资源，它能保持信息的客观性不被改变。
 			> 这使得大脑可以专注于要点、更深层次的理解和学科大图景，并更具有创造力。大脑和卡片盒可以分别专注于自己最擅长的事情。
-	* <input type="checkbox" name="fchk" id="fold63"><label for="fold63">Kimbro 所描述的笔记也服务于类似的目的。对他而言，减少重复思考、避免进度丢失、研究他所关注的问题（心灵）是记笔记的三大最主要目的，而笔记的储存、提取等功能也在考虑范围之内。</label>
+	* <input type="checkbox" name="fchk" id="fold66"><label for="fold66">Kimbro 所描述的笔记也服务于类似的目的。对他而言，减少重复思考、避免进度丢失、研究他所关注的问题（心灵）是记笔记的三大最主要目的，而笔记的储存、提取等功能也在考虑范围之内。</label>
 		*  Kimbro, Lion. (2003). How to Make a Complete Map of Every Thought You Think[J]. 
 			> Major reasons:
 			> * Reduce Repeated Thinking 
@@ -77,52 +80,52 @@ categories: jekyll update
 			> Minor reasons: 
 			> * Storage and Retrieval 
 			> * Living Strategicly
-	* <input type="checkbox" name="fchk" id="fold73"><label for="fold73">这一目的为永久笔记的内容质量提出了一定的要求。我们应只在笔记系统中放入认真处理过的笔记，以避免过多的低价值笔记所可能带来的混乱。</label>
+	* <input type="checkbox" name="fchk" id="fold76"><label for="fold76">这一目的为永久笔记的内容质量提出了一定的要求。我们应只在笔记系统中放入认真处理过的笔记，以避免过多的低价值笔记所可能带来的混乱。</label>
 		* Ahrens 认为，笔记内容的质量是「永久笔记」（permanent notes）区别于「闪念笔记」（fleeting notes）的关键方面。「与闪念笔记不同，卡片盒里的每一张永久笔记都经过了足够精心的设计，为成为最终书面作品的一部分或激发灵感打下基础。」
 		* 而如果将所有的笔记都划分为「永久笔记」，将「导致优秀的笔记被其他或许只与特定项目有关、或许实际上不那么好的笔记淹没了，因此永远也无法实现群聚效应」。
-	* <input type="checkbox" name="fchk" id="fold76"><label for="fold76">由于未经过充分处理的笔记不应该轻易引入，收件箱（inbox）维护的需求也应运而生，它将负责闪念笔记向永久笔记转化的过程。</label>
+	* <input type="checkbox" name="fchk" id="fold79"><label for="fold79">由于未经过充分处理的笔记不应该轻易引入，收件箱（inbox）维护的需求也应运而生，它将负责闪念笔记向永久笔记转化的过程。</label>
 		* Ahrens 在书中说：「大多数想法都经不起时间的考验，而有的想法则可能成为一个重大项目的种子。遗憾的是，它们并不容易马上被区分开来。这就是为什么把一个想法写下来的门槛必须尽可能低，但在一两天内对它们进行阐述同样至关重要。」
-	* <input type="checkbox" name="fchk" id="fold78"><label for="fold78">在永久笔记本身内容已经比较完善的前提下，我们可以为这样的笔记起合适的标题，使其能精确地概括这条笔记的内容。</label>
+	* <input type="checkbox" name="fchk" id="fold81"><label for="fold81">在永久笔记本身内容已经比较完善的前提下，我们可以为这样的笔记起合适的标题，使其能精确地概括这条笔记的内容。</label>
 		* Andy Matuschak 的常青笔记中就有几条在讨论类似的事情。例如《笔记标题建议使用完整的句子，避免模糊主张》（[中文翻译](https://zhuanlan.zhihu.com/p/422262632)，[英文原文](https://notes.andymatuschak.org/z3KmNj3oKKSTJfqdfSEBzTQiCVGoC4GfK3rYW)），以及《常青笔记的标题就像 API》（[中文翻译](https://zhuanlan.zhihu.com/p/421908250)，[英文原文](https://notes.andymatuschak.org/z3XP5GRmd9z1D2qCE7pxUvbeSVeQuMiqz9x1C)）。
-	* <input type="checkbox" name="fchk" id="fold80"><label for="fold80">通过永久笔记积攒了一定数量的想法以后，这些笔记上所写的内容将能够进行组合，最终形成我们所写出的文章。</label>
+	* <input type="checkbox" name="fchk" id="fold83"><label for="fold83">通过永久笔记积攒了一定数量的想法以后，这些笔记上所写的内容将能够进行组合，最终形成我们所写出的文章。</label>
 		* Ahrens 在书中说，记录了一段时间的笔记后，「会积攒到足够多的想法去确定一个写作主题」。
-		* 在这种情况下，「把卡片盒里的笔记变成最终文本的步骤非常简单」，因为「卡片盒里存放的已经是有意义且经过深思熟虑的内容，并且很多部分已经很好地排了序」，这使得「你能清楚地看到哪些长串的论证已经成型」。
-		* 为了产生最终的文章，只需要「将这些笔记按顺序组织起来」，据此完成初稿，并进行最终的修订就可以了。
-* <input type="checkbox" name="fchk" id="fold84"><label for="fold84">六、将笔记作为思考工具本身。（历史上真实的）卢曼二代卡片盒大致属于这类。</label>
-	* <input type="checkbox" name="fchk" id="fold85"><label for="fold85">「思考工具」这个说法来自 Schmidt。</label>
+		* 在这种情况下，「把卡片盒里的笔记变成最终文本的步骤非常简单」，因为「卡片盒里存放的已经是有意义且经过深思熟虑的内容，并且很多部分已经很好地排了序」，这使得「你能清楚地看到哪些长串的论证已经成型，这是一个很好的切入点」。
+		* 而为了产生最终的文章，只需要「将这些笔记按顺序组织起来」，据此完成初稿，并进行最终的修订就可以了。
+* <input type="checkbox" name="fchk" id="fold87"><label for="fold87">六、将笔记作为思考工具本身。（历史上真实的）卢曼二代卡片盒大致属于这类。</label>
+	* <input type="checkbox" name="fchk" id="fold88"><label for="fold88">「思考工具」这个说法来自 Schmidt。</label>
 		* Schmidt, Johannes. (2016). Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine. 10.1163/9789004325258_014. 
-	* <input type="checkbox" name="fchk" id="fold87"><label for="fold87">需要指出的是，由于写这件事本身有帮助思考的功效，仅将笔记系统用于记录想法、思考结果的做法也确实在一定程度上成为了思考的辅助工具；不过大概也仅限于此了。</label>
+	* <input type="checkbox" name="fchk" id="fold90"><label for="fold90">需要指出的是，由于写这件事本身有帮助思考的功效，仅将笔记系统用于记录想法、思考结果的做法也确实在一定程度上成为了思考的辅助工具；不过大概也仅限于此了。</label>
 		* 卢曼在《与卡片盒交流》一文（[中文翻译](https://mp.weixin.qq.com/s/_aPS2ol1DxiCFX-xfl-8yg)，[英文翻译](https://luhmann.surge.sh/communicating-with-slip-boxes)）中写道：「不写作就不可能思考，至少不能用一种复杂的、网络化的方式思考。」
 		* Ahrens 的书中还提到了费曼的例子。一位历史学家想采访费曼，他看到费曼的笔记本时，对这一「费曼思维过程的精彩记录」感到十分兴奋。而费曼立刻对此进行了反驳：「这些不是我思维过程的记录，它们就是我的思维过程，实际上我的思维活动都是在纸上进行的。」
-	* <input type="checkbox" name="fchk" id="fold90"><label for="fold90">将笔记作为思考工具时，不应期待其中的内容具有很高的完善性。在学术前沿的复杂理论创新往往需要进行高强度的试错，此时这种不完善的情况将变得更为明显。</label>
-		* <input type="checkbox" name="fchk" id="fold91"><label for="fold91">按照 Schmidt 的说法，卢曼的卡片盒「不仅包含经过验证的知识，还反映了思考过程，包括潜在的错误和死胡同」，它「记录了卢曼思想中重要理论结构的演变」。</label>
+	* <input type="checkbox" name="fchk" id="fold93"><label for="fold93">将笔记作为思考工具时，不应期待其中的内容具有很高的完善性。在学术前沿的复杂理论创新往往需要进行高强度的试错，此时这种不完善的情况将变得更为明显。</label>
+		* <input type="checkbox" name="fchk" id="fold94"><label for="fold94">按照 Schmidt 的说法，卢曼的卡片盒「不仅包含经过验证的知识，还反映了思考过程，包括潜在的错误和死胡同」，它「记录了卢曼思想中重要理论结构的演变」。</label>
 			*  Schmidt, Johannes. (2016). Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine. 10.1163/9789004325258_014. 
 				> Accordingly, the file also documents the evolution of important theoretical constructs in Luhmann’s thinking: for instance, the concepts of communication media, evolution, or observation. 
 				> It contains not only validated knowledge but also reflects the thought process, including potential mistakes and blind alleys that were later revised but not removed from the file as the original cards always remained in Luhmann’s file and perhaps a new card with revisions was added if needed. 
-		* 卢曼在《与卡片盒交流》中提到，「许多笔记将很快变得无法使用，或在特定场合下无法使用。这既适用于摘抄（通常只有在特别简洁的表述才有价值），也适用于我们自己的笔记。」
+		* 卢曼在《与卡片盒交流》中提到，「许多笔记将很快变得无法使用，或在特定场合下无法使用。这既适用于摘抄（通常只有特别简洁的表述才有价值），也适用于我们自己的笔记。」
 		* 事实上，卢曼的许多卡片只记录了一个问题，而不包括关于如何回答这一问题的任何可能的想法。编号为 `9/8c`、`9/8,1`、`9/8,2`、`9/8,3` 的卡片就是这样的例子。
 		* 读者也可以查看 [（翻译）卢曼关于卡片盒的卡片](../（翻译）卢曼关于卡片盒的卡片/)，并自行判断这些真实卡片的内容完善程度到底如何。
-	* <input type="checkbox" name="fchk" id="fold98"><label for="fold98">而事实上，笔记中的内容也确实没必要做得很完善。一方面，对完善性的追求将导致不必要的时间精力耗费；另一方面，一个组织良好的笔记系统完全有能力处理这些并不完善的内容。</label>
+	* <input type="checkbox" name="fchk" id="fold101"><label for="fold101">而事实上，笔记中的内容也确实没必要做得十分完善。一方面，对完善性的追求将导致不必要的时间精力耗费；另一方面，一个组织良好的笔记系统完全有能力处理这些并不完善的内容。</label>
 		* 卢曼编号为 `9/8a2` 的卡片将这一要求表述得十分直白：「作为化粪池的卡片盒——不要只放入处理过的笔记。将检验与决策延后——这也是速度的问题。」
-		* <input type="checkbox" name="fchk" id="fold100"><label for="fold100">而在编号 `9/8i` 的卡片中，卢曼强调了卡片盒「具有反刍动物的复杂消化系统」，这使得「所有随意的想法，所有阅读中的巧合，都可以放入」，而笔记间的链接「将发挥决定性的作用」。</label>
+		* <input type="checkbox" name="fchk" id="fold103"><label for="fold103">而在编号 `9/8i` 的卡片中，卢曼强调了卡片盒「具有反刍动物的复杂消化系统」，这使得「所有随意的想法，所有阅读中的巧合，都可以放入」，而笔记间的链接将「发挥决定性的作用」。</label>
 			* 具体内容可在 [（翻译）卢曼关于卡片盒的卡片](../（翻译）卢曼关于卡片盒的卡片/) 查看。
-		* <input type="checkbox" name="fchk" id="fold102"><label for="fold102">Schmidt 对此评论道，在添加永久笔记时，卢曼「主要关注的不是如何将一个想法发展到极致」；相反，「他是基于这样一个假设来操作的，即只有在与其他笔记相关的情况下才能对笔记的有用性做出决定，因此（在许多情况下）这将是一个未来要决定的问题。」</label>
+		* <input type="checkbox" name="fchk" id="fold105"><label for="fold105">Schmidt 对此评论道，在添加永久笔记时，卢曼「主要关注的不是如何将一个想法发展到极致」；相反，「他是基于这样一个假设来操作的，即只有在与其他笔记相关的情况下才能对笔记的有用性做出决定，因此（在许多情况下）这将是一个未来要决定的问题。」</label>
 			*  Schmidt, Johannes. (2016). Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine. 10.1163/9789004325258_014. 
 				> In a second step soon after he had completed his reading, he would prepare the notes that he had taken by organizing them according to his filing technique (see below). 
 				> At this point, his main concern was not to develop an idea to maximum sophistication; rather, he operated on the assumption that a decision on the usefulness of a note could only be made in relating it to the other notes – and therefore would (in many cases) be a matter to be decided in the future. 
 		* 在《与卡片盒交流》中，卢曼强调「每一张卡片都只是一个组成部分，它的质量只取决于系统内的链接和反向链接的网络」。如果有人指望某张卡片仅凭其上所写的（完善的）内容就能保证其自身的品质的话，那这种天真的想法还是趁早放弃为妙。 
-		* <input type="checkbox" name="fchk" id="fold107"><label for="fold107">需要注意这种处理能力形成的一个关键前提：本身并不完善的笔记也必须能够充分地融入整个笔记系统的链接网络。</label>
+		* <input type="checkbox" name="fchk" id="fold110"><label for="fold110">需要注意这种处理能力形成的一个关键前提：本身并不完善的笔记也必须能够充分地融入整个笔记系统的链接网络。</label>
 			* 在电子笔记中，许多人将笔记的标题作为其唯一标识符（UID），用于建立指向这条笔记的链接。
 			* 这种策略对于这里所讨论的不完善笔记往往不再可用，因为在笔记的内容本身就不够完善的前提下，为它起一个合适的标题将是比较困难、也没有必要的。
-	* <input type="checkbox" name="fchk" id="fold110"><label for="fold110">不同于想法记录目的中的「分工」说，卢曼在《与卡片盒交流》中着重强调了卡片盒的「交流」功能。从这个角度来看，一个十分关键的问题是如何设计卡片盒，使其获得和人一样的「交流」能力。</label>
+	* <input type="checkbox" name="fchk" id="fold113"><label for="fold113">不同于想法记录目的中的「分工」说，卢曼在《与卡片盒交流》中着重强调了卡片盒的「交流」功能。从这个角度来看，一个十分关键的问题是如何设计卡片盒，使其获得和人一样的「交流」能力。</label>
 		* 卢曼就此强调，「如果你想培养一个交流伙伴，最好从一开始就让他独立。」
-		* 当然，要使笔记系统具备这样的「交流」能力也并非一件容易的事情。卢曼指出，「卡片盒需要数年时间才能达到临界水平。在此之前，它仅仅是一个容器，我们可以从中获取所放入的内容。」也就是说，早期卡片盒所起到的功能和原先「分工」说法中的别无二致。
-	* <input type="checkbox" name="fchk" id="fold113"><label for="fold113">这种「交流」的功能也起到了「惊喜生成器」的效果，成为了卢曼创造力的重要来源。</label>
-		* <input type="checkbox" name="fchk" id="fold114"><label for="fold114">Schmidt 引用了卢曼的话：「如果没有这些卡片，只是通过思考，我永远不会想到这些想法。当然，我的头脑需要记下这些想法，但它们不能单独归因于它。」</label>
+		* 当然，使笔记系统具备这样的「交流」能力也并非一件容易的事情。卢曼指出，「卡片盒需要数年时间才能达到临界水平。在此之前，它仅仅是一个容器，我们可以从中获取所放入的内容。」也就是说，早期卡片盒所起到的功能和原先的「分工」说法是十分相近的。
+	* <input type="checkbox" name="fchk" id="fold116"><label for="fold116">这种「交流」的功能也起到了「惊喜生成器」的效果，成为了卢曼创造力的重要来源。</label>
+		* <input type="checkbox" name="fchk" id="fold117"><label for="fold117">Schmidt 引用了卢曼的话：「如果没有这些卡片，只是通过思考，我永远不会想到这些想法。当然，我的头脑需要记下这些想法，但这不能单独归因于它。」</label>
 			*  Schmidt, Johannes. (2016). Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine. 10.1163/9789004325258_014. 
 				> “Without those cards, just by contemplating, these ideas would have never occurred to me. 
 				> Of course, my mind is needed to note down the ideas, but they cannot be attributed to it alone”, said Luhmann.16 The file is thus a surprise generator. B
 		* 在《与卡片盒交流》中，卢曼表示「卡片盒提供了从未计划过的，从未预想过的信息组合的可能性」。当他在卡片盒中查找特定内容的时候，「可以获得比大脑当时所能想到的更多的信息」，这些信息甚至「比以往以笔记形式存储的信息更多」。
-		* 这样的「交流」与惊喜生成功能也是卢曼卡片盒难以理解的地方之一。nggalai 在 Reddit 论坛上提供了一个自己进行「交流」的成功例子（[英文原文](https://www.reddit.com/r/Zettelkasten/comments/pddw8y/i_finally_get_it_after_a_quarter_of_a_century_i/)，[中文翻译](https://zhuanlan.zhihu.com/p/502085870)），并感叹自己「发现、理解这种沟通用了 25 年」。
+		* 这样的「交流」与惊喜生成功能也是卢曼卡片盒难以理解的地方之一。nggalai 在 Reddit 论坛上提供了一个自己进行「交流」的成功例子（[英文原文](https://www.reddit.com/r/Zettelkasten/comments/pddw8y/i_finally_get_it_after_a_quarter_of_a_century_i/)，[中文翻译](https://zhuanlan.zhihu.com/p/502085870)），并感叹自己「发现、理解这种交流用了 25 年」。
 	* 用作思考工具的笔记系统也能产出文章，但这一过程已经与用于想法记录时的产出十分不同了。利用他的卡片盒，卢曼成功地回答了前人所没能回答的问题，建立起了前人所没能建立起的理论。在这以后，他只不过是顺手写了一些文章，将这些前所未有的、全新的东西昭告世人罢了。
 
