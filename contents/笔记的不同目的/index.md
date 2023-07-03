@@ -1,7 +1,7 @@
 ---
 layout: folded_post
 title: "笔记的不同目的"
-date: 2023-02-18 +0800
+date: 2023-07-03 +0800
 categories: jekyll update
 ---
 
@@ -16,7 +16,7 @@ categories: jekyll update
 
 ## 常见的笔记目的
 * 我将常见的笔记管理的目的大致分出了如下几类。当然，实际笔记系统所面向的目的往往也还涉及几个类别的组合。
-* 一、记录目的，包括课堂笔记、会议记录等。所谓的康奈尔笔记法大致属于这类，这里不再赘述。
+* 一、记录目的，包括课堂笔记、会议记录等，这里不再赘述。
 * <input type="checkbox" name="fchk" id="fold13"><label for="fold13">二、阅读理论性的材料时，运用笔记来帮助理解。文献笔记和永久笔记的制作均能服务于这一目的。</label>
 	* <input type="checkbox" name="fchk" id="fold14"><label for="fold14">关于文献笔记的制作，卢曼在《学习如何阅读》中强调了「对所阅读的文本进行浓缩重写」对于提高阅读能力的重要性，这能够训练我们注意到没有在文本中明确写出的内容。</label>
 		* 按照卢曼的说法，这些未写出的内容包括了「文本的框架、模式和类别」，或者是「文本的条件或假设」。在注意到这些内容之后，笔记的表述将「变得与之前不同」。
@@ -56,7 +56,7 @@ categories: jekyll update
 		* <input type="checkbox" name="fchk" id="fold49"><label for="fold49">无体系问题要求我们做出主观判断和选择，随着个体的不同偏好而有不同的答案，其结果不能进行评判。</label>
 			* 关于豆腐脑、粽子等的甜咸争论就属于这个范围。
 		* <input type="checkbox" name="fchk" id="fold51"><label for="fold51">多体系问题则允许在多个体系中搜集证据、进行推理，得出多个可能的答案，这些答案依据论证的充分性等有优劣区分，它们应被视作「判断」。</label>
-			* 例如：堕胎在道德上的合理性，某政策措施是否能减少吸毒人群的数量，苏联解体的原因，等等。去年罗翔与车浩关于收买被拐妇女犯罪刑期设置问题的讨论也属于「判断」。
+			* 例如：堕胎在道德上的合理性，某政策措施是否能减少吸毒人群的数量，苏联解体的原因，等等。2022 年罗翔与车浩关于收买被拐妇女犯罪刑期设置问题的讨论也属于「判断」。
 			* 作者在书中强调，对于这一类的问题，我们「应该运用普遍的思维标准（如清晰度、深度、一致性等）来理性地评估问题的答案」。尽管我们可能将判断的结论称作「观点」，但我们不仅重视观点，也重视这一观点背后的可靠论证基础。
 		* <input type="checkbox" name="fchk" id="fold54"><label for="fold54">这种划分可能随着命题的表述而有所不同。例如，Ahrens 认为每张永久笔记都要经过「足够精心的设计」，这本身是一个判断，但「Ahrens 认为每张永久笔记都要经过足够精心的设计」则是一个事实。</label>
 			* 考虑到这一点，在某些情况下，文献调研与文献管理可以依据这里所讨论的「知识管理」来进行。
@@ -125,7 +125,7 @@ categories: jekyll update
 		* <input type="checkbox" name="fchk" id="fold118"><label for="fold118">Schmidt 引用了卢曼的话：「如果没有这些卡片，只是通过思考，我永远不会想到这些想法。当然，我的头脑需要记下这些想法，但这不能单独归因于它。」</label>
 			*  Schmidt, Johannes. (2016). Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine. 10.1163/9789004325258_014. 
 				> “Without those cards, just by contemplating, these ideas would have never occurred to me. 
-				> Of course, my mind is needed to note down the ideas, but they cannot be attributed to it alone”, said Luhmann.16 The file is thus a surprise generator. B
+				> Of course, my mind is needed to note down the ideas, but they cannot be attributed to it alone”, said Luhmann. The file is thus a surprise generator. 
 		* 在《与卡片盒交流》中，卢曼表示「卡片盒提供了从未计划过的，从未预想过的信息组合的可能性」。当他在卡片盒中查找特定内容的时候，「可以获得比大脑当时所能想到的更多的信息」，这些信息甚至「比以往以笔记形式存储的信息更多」。
 		* 这样的「交流」与惊喜生成功能也是卢曼卡片盒难以理解的地方之一。nggalai 在 Reddit 论坛上提供了一个自己进行「交流」的成功例子（[英文原文](https://www.reddit.com/r/Zettelkasten/comments/pddw8y/i_finally_get_it_after_a_quarter_of_a_century_i/)，[中文翻译](https://zhuanlan.zhihu.com/p/502085870)），并感叹自己「发现、理解这种交流用了 25 年」。
 	* 用作思考工具的笔记系统也能产出文章，但这一过程已经与用于想法记录时的产出十分不同了。利用他的卡片盒，卢曼成功地回答了前人所没能回答的问题，建立起了前人所没能建立起的理论。在这以后，他只不过是顺手写了一些文章，将这些前所未有的、全新的东西昭告世人罢了。
