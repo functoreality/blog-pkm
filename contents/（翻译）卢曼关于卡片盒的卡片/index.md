@@ -1,7 +1,7 @@
 ---
 layout: folded_post
 title: "（翻译）卢曼关于卡片盒的卡片"
-date: 2023-02-03 +0800
+date: 2023-07-13 +0800
 categories: jekyll update
 ---
 
@@ -10,11 +10,11 @@ categories: jekyll update
 	* 基于有总比没有好的想法，我还是决定将这个不够完善的翻译版本发出来，作为我们了解卢曼的卡片笔记法的第一手资料。
 	* 如果有读者（尤其是懂德语的读者）对某处的翻译有疑惑，或者有更好的译法，都十分欢迎在评论区留言。
 	* 相关内容：雪小豹已经翻译了卢曼的文章 [《与卡片盒交流》](https://mp.weixin.qq.com/s/_aPS2ol1DxiCFX-xfl-8yg) 和 [《学习如何阅读》](https://mp.weixin.qq.com/s/CC6I87Yt3zKjQ-SIGr0sAg)。
-* <input type="checkbox" name="fchk" id="fold6"><label for="fold6">（9/8）作为一个控制论系统的卡片盒。无序、有序以及组块形成三者的结合，并且是意外的、在临时访问中实现的结合。先决条件：放弃固定顺序。上游差异：搜索辅助 vs 内容；索引，问题，（自发的）想法 vs 已经存在的东西，重塑并部分淘汰了必须被假设的内在秩序。</label>
+* <input type="checkbox" name="fchk" id="fold6"><label for="fold6">（9/8）作为控制论系统的卡片盒。无序与有序的结合，集簇形成与意外的、在临时访问中实现的组合的结合。先决条件：放弃固定秩序。预设的分化：搜索与内容，索引、问题、突发的想法与已有的东西，这种分化重塑了必须被假设的内在秩序，并使这种秩序在某种程度上变得没有必要。</label>
 	> (9/8) Zettelkasten als kybernetisches System. Kombination von Unordnung und Ordnung, von Klumpenbildung und unvorhersehbarer, im ad hoc Zugriff realisierter Kombination. Vorbedingung: Verzicht auf festgelegte Ordnung. Die vorgeschaltete Differenzierung: Suchhilfen vs. Inhalt; Register, Fragestellungen, Einfälle vs. Vorhandenes überformt und macht z.T. entbehrlich, das, was an innerer Ordnung vorausgesetzt werden muss.
 	> 
 	> Zettelkasten as a cybernetic system. Combination of disorder and order, of lump formation, and unexpected, in ad hoc access realised combination. Prerequisite: Abandonment of fixed order. The upstream differentiation: Search aids vs content; index, questions, [spontaneous] ideas vs what already exists, reshapes and makes in part obsolete the inner order that must be assumed.
-* <input type="checkbox" name="fchk" id="fold10"><label for="fold10">（9/8a）生产力问题必须基于一种关系，即卡片盒与用户之间的关系。</label>
+* <input type="checkbox" name="fchk" id="fold10"><label for="fold10">（9/8a）生产力问题必须基于一种关系，即卡片盒与使用者之间的关系。</label>
 	> (9/8a) Das Produktivitätsproblem muss in bezug auf eine Relation gestellt werden, nämlich in bezug auf die Relation von Zettelkasten und Benutzer.
 	> 
 	> The productivity problem has to be based on a relation, namely on the relation of Zettelkasten and user.
@@ -35,7 +35,7 @@ categories: jekyll update
 	> 
 	> Because of the previous point it is important that the order in the Zettelkasten is not aggregated merely under terms or complex single topics; although this is of course also necessary. But the connections shouldn’t merely cover the leading points aggregating collective terms, but must selectively pull away the material collected under them.
 	>
-	> 中译者注：翻译后一句时还参考了 Johannes F.K. Schmidt 所写文章 Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine 中给出的英文翻译：
+	> 中译者注：翻译后一句时还参考了 Johannes F.K. Schmidt 所写文章 *Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine* 中给出的英文翻译：
 	>
 	> The references must not capture collective concepts that aggregate key aspects but must selectively lead away from the material subsumed under them. 
 * <input type="checkbox" name="fchk" id="fold34"><label for="fold34">（9/8b2）对于复杂（以复杂的方式评估）信息的存储来说，「多重存储」是必要的。</label>
@@ -54,11 +54,11 @@ categories: jekyll update
 	> (9/8e) Evtl. Rückgriff auf den Informationsbegriff, der Selektionshorizonte, Vergleichsschemata etc. voraussetzt, die nicht im Vorhinein festgelegt werden können. Daher wird der Zettelkasten produktiv insofern, als er Notiertes nichtmitnotierten Hintergründen aussetzt und dadurch Information entstehen lässt, die so nicht gespeichert war.
 	> 
 	> Possibly, recourse to the concept of information that presupposes selection horizons, comparison schemes, etc. which cannot be predetermined. Therefore, the Zettelkasten becomes productive as it exposes what is noted to what is not noted and thus allows the formation of information that was not stored in this way.
-* <input type="checkbox" name="fchk" id="fold50"><label for="fold50">（9/8f）当以适当的方式进入（channeling）这个社会系统时，就会产生统一的效果。精神上强壮（muscular）的整体人格的印象。</label>
+* <input type="checkbox" name="fchk" id="fold50"><label for="fold50">（9/8f）当以适当的方式进入这个社会系统时，就会产生统一的效果。精神上强健的整体人格的印象。</label>
 	> (9/8f) Einheitlicher Effekt entsteht bei Kanalisierung in appropriate ways in das soziale System. Eindruck einer geistig muskulösen Gesamtpersönlichkeit.
 	> 
 	> A unified effect is created when channeling in appropriate ways into the social system. Impression of a mentally muscular overall personality.
-* <input type="checkbox" name="fchk" id="fold54"><label for="fold54">（9/8g）卡片盒方法就是基于这样的经验：人不写就不能思考——至少在 预期能选择性地访问记忆 的苛刻情境下不能。这也意味着：如果没有找出差异（notching differences），人就无法思考。</label>
+* <input type="checkbox" name="fchk" id="fold54"><label for="fold54">（9/8g）卡片盒方法就是基于这样的经验：人不写就不能思考——至少在 预期能选择性地访问记忆 的苛刻情境下不能。这也意味着：如果没有找出差异，人就无法思考。</label>
 	> (9/8g) Hinter der Zettelkastentechnik steht die Erfahrung: Ohne zu schreiben kann man nicht denken – jedenfalls nicht in anspruchsvollen, selektiven Zugriff aufs Gedächtnis voraussehenden Zusammenhängen. Das heißt auch: ohne Differenzen einzukerben, kann man nicht denken.
 	> 
 	> The Zettelkasten Method is based on this experience: One cannot think without writing - at least not in demanding contexts that anticipate selective access to memory. This also means: without notching differences one cannot think.
@@ -74,11 +74,11 @@ categories: jekyll update
 	> (9/8j) Im Zettelkasten ist ein Zettel, der das Argument enthält, das die Behauptungen auf allen anderen Zetteln widerlegt. Aber dieser Zettel verschwindet, sobald man den Zettelkasten aufzieht. D.h. er nimmt eine andere Nummer an, verstellt sich und ist dann nicht zu finden. Ein Joker.
 	> 
 	> There is a note in the Zettelkasten that contains the argument that refutes the claims on every other note. But this note disappears as soon as one opens the Zettelkasten. I.e. it appropriates a different number, changes position (or: disguises itself) and is then not to be found. A joker.
-* <input type="checkbox" name="fchk" id="fold70"><label for="fold70">（9/8,1）话题：与卡片盒的沟通：如何获得一个合格（adequate）的伙伴，初级（junior）伙伴？在与工作人员的合作变得越来越困难和昂贵后，这尤其重要。卡片的现实。</label>
+* <input type="checkbox" name="fchk" id="fold70"><label for="fold70">（9/8,1）话题：与卡片盒的沟通：如何获得一个合格的伙伴，初级伙伴？在与工作人员的合作变得越来越困难和昂贵后，这尤其重要。卡片的现实。</label>
 	> (9/8,1) Thema: Kommunikation mit dem Zettelkasten: Wie kommt man zu einem adaequaten Partner, Junior-Partner? – wichtig, nachdem das Arbeiten mit Personal immer schwieriger und immer teurer wird. Zettels Wirklichkeit
 	> 
 	> Topic: Communication with the Zettelkasten: How to get an adequate partner, junior partner? – important after working with staff becomes more and more difficult and expensive. Zettel’s reality
-* <input type="checkbox" name="fchk" id="fold74"><label for="fold74">（9/8,2）长期以来，人工（personnel）一直稀缺且昂贵，现在还变得不守规矩，无法管理。微处理器已经公布，但还没有真正可用。一个人自己的记忆力有局限，需要得到解放。尝试创建第二记忆时需要考虑的东西。</label>
+* <input type="checkbox" name="fchk" id="fold74"><label for="fold74">（9/8,2）长期以来，人工一直稀缺且昂贵，现在还变得不守规矩，无法管理。微处理器已经公布，但还没有真正可用。一个人自己的记忆力有局限，需要得到解放。尝试创建第二记忆时需要考虑的东西。</label>
 	> (9/8,2) Personal ist schon lange knapp und teuer, jetzt wird es zusätzlich ungebärdig und unleitbar. Die Mikroprozessoren sind angekündigt, aber noch nicht wirklich verfügbar. Das eigene Gedächtnis mangelhaft und entlastungsbedürftig. Überlegungen zu einem Versuch, sich ein Zweitgedächtnis zu schaffen.
 	> 
 	> Personnel has been scarce and expensive for a long time, now it additionally becomes unruly and unmanageable. Microprocessors have been announced, but are not really available yet. One’s own memory is deficient and in need of relief. Considerations on an attempt to create a second memory.
@@ -86,3 +86,5 @@ categories: jekyll update
 	> (9/8,3) Geist im Kasten? Zuschauer kommen. Sie bekommen alles zu sehen, und nichts als das – wie beim Pornofilm. Und entsprechend ist die Enttäuschung.
 	> 
 	> Ghost in the box? Spectators visit. They get to see everything, and nothing but that - like in a porn movie. And the disappointment is correspondingly high.
+
+<!-- * （9/8）作为一个控制论系统的卡片盒。无序、有序以及组块形成三者的结合，并且是意外的、在临时访问中实现的结合。先决条件：放弃固定顺序。上游差异：搜索辅助 vs 内容；索引，问题，（自发的）想法 vs 已经存在的东西，重塑并部分淘汰了必须被假设的内在秩序。 -->
