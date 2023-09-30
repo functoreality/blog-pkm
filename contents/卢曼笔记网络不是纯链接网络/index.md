@@ -1,7 +1,7 @@
 ---
 layout: folded_post
 title: "卢曼笔记网络不是纯链接网络"
-date: 2023-09-03 +0800
+date: 2023-09-30 +0800
 categories: jekyll update
 ---
 
@@ -70,11 +70,13 @@ categories: jekyll update
 		*  以 Newman-Watts 网络为例。在这个网络模型中，所有节点排列在一个圆上，圆上的相邻节点建立连接。我们也可以额外再为相距不太远（比如距离不超过 2）的节点对也建立连接。这构成了网络中的第一种连接。
 			<!-- * 这里为相距不远、但非直接相邻的节点对建立连接 -->
 		* 在这一基础上，网络中的每个节点以一个相对较小的概率发出一条新的连接，连接所涉及的另一节点从整个网络的所有节点中随机选择。这是网络中的第二种连接。
-		*  下面这张图片展示了一个 Newman-Watts 网络的例子。图片来自论文：Newman, M.E.J. Models of the Small World. Journal of Statistical Physics 101, 819–841 (2000). https://doi.org/10.1023/A:1026485807148  
+		*  下面这张图片展示了一个 Newman-Watts 网络的例子。图片来自论文：
+			Dorogovtsev, Sergey \& Goltsev, Alexander \& Mendes, José Fernando. (2007). Critical phenomena in complex networks. Reviews of Modern Physics. 80. 10.1103/RevModPhys.80.1275.
 			<img src="https://ar5iv.labs.arxiv.org/html/0705.0010/assets/x5.png" width = 33% />
+			<!-- Newman, M.E.J. Models of the Small World. Journal of Statistical Physics 101, 819–841 (2000). https://doi.org/10.1023/A:1026485807148 -->  
 	* 就笔记系统而言，笔记序列建立了局部的集体关联，相当于这里的第一种连接；直接链接则是跨区域的成对关联，相当于这里的第二种连接。由此看来，通过在笔记系统中同时引入这两种形式的关联，我们的笔记完全有可能形成一个「小世界网络」。
 	* 这样的小世界性质拉近了不同笔记之间的距离。从某条笔记出发，即使只进行为数不多的几次跳转，可访问到的笔记的范围也是巨大的。笔记网络由此为我们提供了十分丰富的可能性。
-* <input type="checkbox" name="fchk" id="fold70"><label for="fold70">需要注意的是，这种「小世界」性质的达到依然是有条件的。尽管它所需的链接数目相对不多，但却对链接的质量提出了更高的要求，需要我们建立许多跨主题的链接。</label>
+* <input type="checkbox" name="fchk" id="fold72"><label for="fold72">需要注意的是，这种「小世界」性质的达到依然是有条件的。尽管它所需的链接数目相对不多，但却对链接的质量提出了更高的要求，需要我们建立许多跨主题的链接。</label>
 	* 上面关于小世界网络的讨论中已经提到，笔记系统中的直接链接可以对应网络模型中的第二种连接。这些连接可以相对稀少，但同时应该是远程的连接，通常要跨越一定的距离。
 	* 而如果笔记中的链接都局限在同一个主题、话题之内，则它所建立的关联仍然是局部的，无法充当这里所需要的远程连接。
 	* 卢曼在他的 `9/8b1` 号卡片中就提到，在卡片盒里建立链接时，「不能仅根据术语或复杂的单个话题进行聚合」，还「必须有选择地引导、离开在它们下面收集的材料」。
@@ -89,12 +91,10 @@ categories: jekyll update
 		[未知]参与（Partizipation） 35/3l21l
 		经济（Wirtschaft） 8/40
 		风险（Risiko）[未知] .60o21-22, 60o24
-		死亡风险（Todal Risiko） 7/8l
+		死亡作为风险（Tod als Risiko） 7/8l
 		```
 		* 注：能力所限，我不能保证这里的转写完全准确。`[未知]` 表示我无法确定含义的单词。
-		<!-- TODO：Todal Todel 用翻译软件确认；也可看 ZK2 目录确定其他单词 -->
 	* 考虑到跨主题的联系通常不像同一主题内的那样显然，要建立这样的链接往往也并不容易，有时需要发挥一定的创造力。如卢曼在《与卡片盒交流》一文（[中文翻译](https://mp.weixin.qq.com/s/_aPS2ol1DxiCFX-xfl-8yg)，[英文翻译](https://zettelkasten.de/communications-with-zettelkastens/)）中所述，「连接也不一定是那么显而易见，我们必须跨越记笔记的人和卡片盒本身之间的边界。」
-<!-- 有 TODO；用 Claude 改表述？ -->
 
 <!-- * 从笔记系统功能的角度来看，单独的链接或笔记序列都只为一定范围内的笔记建立了关联。但若考虑二者组合后形成的间接关联，所能覆盖的笔记则要多许多。 -->
 <!-- * 引入这种组合关联以后，笔记的结构与某些「小世界网络」有相当程度的一致性。因此，这种增强的关联能力与发散性也可以从「小世界网络」的角度来解读。 -->
