@@ -64,7 +64,7 @@ categories: jekyll update
 		* 有不少人会把属于这里第三类的「判断」命题也当成「知识」来进行管理，不过我个人并不推荐这种做法。如上所述，它们往往并非有唯一正确答案的东西，我们更应该在对多种不同可能性进行分析比较的基础之上，批判性地接受其中的结论。相应的笔记系统也将更多地服务于思考的目的。
 	* 计算机代码编写、软件配置等场合涉及的「cheatsheet」即可认为是面向这一目的的笔记。
 	* <input type="checkbox" name="fchk" id="fold59"><label for="fold59">这一类的知识、信息所归属的主题往往在记录时已可预先确定。这允许我们利用结合了反链功能的每日笔记（daily notes）工作流，将临时产生的信息先暂时存放在每日笔记中，以降低内容记录的成本。</label>
-		* [笔记间关联方式](../笔记间关联方式/) 讨论反向链接时已对此进行了初步的介绍；更多内容可见 deerain 所写的 [《双向链接时代的快速无压记录》](https://www.yuque.com/deerain/gannbs/ffqk2e) 一文。
+		* [《笔记间关联方式》](../笔记间关联方式/) 讨论反向链接时已对此进行了初步的介绍；更多内容可见 deerain 所写的 [《双向链接时代的快速无压记录》](https://www.yuque.com/deerain/gannbs/ffqk2e) 一文。
 	* 结合人工智能领域的「知识图谱」理论，Ryooo 提出了 [KG笔记法](https://zhuanlan.zhihu.com/p/440115356)，其中区分了讨论概念、实体、关系的三类笔记，并给出了相应的处理方式、记录步骤等。
 * <input type="checkbox" name="fchk" id="fold62"><label for="fold62">五、想法（或者思考结果）的记录、整理。Ahrens《卡片笔记写作法》一书中介绍的方法大致属于这类。</label>
 	* <input type="checkbox" name="fchk" id="fold63"><label for="fold63">在这一目的下，笔记系统与自己的大脑有明确的分工。笔记负责保存想法细节、参考资料等，而大脑负责更深层次的理解，进行新内容的创造。</label>
@@ -105,11 +105,11 @@ categories: jekyll update
 				> It contains not only validated knowledge but also reflects the thought process, including potential mistakes and blind alleys that were later revised but not removed from the file as the original cards always remained in Luhmann’s file and perhaps a new card with revisions was added if needed. 
 		* 卢曼在《与卡片盒交流》中提到，「许多笔记将很快变得无法使用，或在特定场合下无法使用。这既适用于摘抄（通常只有特别简洁的表述才有价值），也适用于我们自己的笔记。」
 		* 事实上，卢曼的许多卡片只记录了一个问题，而不包括关于如何回答这一问题的任何可能的想法。编号为 `9/8c`、`9/8,1`、`9/8,2`、`9/8,3` 的卡片就是这样的例子。
-		* 读者也可以查看 [（翻译）卢曼关于卡片盒的卡片](../（翻译）卢曼关于卡片盒的卡片/)，并自行判断这些真实卡片的内容完善程度到底如何。
+		* 读者也可以查看 [《（翻译）卢曼关于卡片盒的卡片》](../（翻译）卢曼关于卡片盒的卡片/)，并自行判断这些真实卡片的内容完善程度到底如何。
 	* <input type="checkbox" name="fchk" id="fold102"><label for="fold102">而事实上，笔记中的内容也确实没必要做得十分完善。一方面，对完善性的追求将导致不必要的时间精力耗费；另一方面，一个组织良好的笔记系统完全有能力处理这些并不完善的内容。</label>
 		* 卢曼编号为 `9/8a2` 的卡片将这一要求表述得十分直白：「作为化粪池的卡片盒——不要只放入处理过的笔记。将检验与决策延后——这也是速度的问题。」
 		* <input type="checkbox" name="fchk" id="fold104"><label for="fold104">而在编号 `9/8i` 的卡片中，卢曼强调了卡片盒「具有反刍动物的复杂消化系统」，这使得「所有随意的想法，所有阅读中的巧合，都可以放入」，而笔记间的链接将「发挥决定性的作用」。</label>
-			* 具体内容可在 [（翻译）卢曼关于卡片盒的卡片](../（翻译）卢曼关于卡片盒的卡片/) 查看。
+			* 具体内容可在 [《（翻译）卢曼关于卡片盒的卡片》](../（翻译）卢曼关于卡片盒的卡片/) 查看。
 		* <input type="checkbox" name="fchk" id="fold106"><label for="fold106">Schmidt 对此评论道，在添加永久笔记时，卢曼「主要关注的不是如何将一个想法发展到极致」；相反，「他是基于这样一个假设来操作的，即只有在与其他笔记相关的情况下才能对笔记的有用性做出决定，因此（在许多情况下）这将是一个未来要决定的问题。」</label>
 			*  Schmidt, Johannes. (2016). Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine. 10.1163/9789004325258_014. 
 				> In a second step soon after he had completed his reading, he would prepare the notes that he had taken by organizing them according to his filing technique (see below). 
